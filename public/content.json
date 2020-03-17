@@ -1,0 +1,54 @@
+Content
+{
+content_id		string
+content_title		string
+content_text 		string
+content_type		string
+created_date		date
+is_sponsored		bool
+has_text		bool
+content_category	string
+content_allow		string
+comments		long
+user_id		string
+user_name		string
+user_image		string
+likes	[{
+id		string
+user_id	string
+user_name	string
+user_image	string
+date_created	date
+}]
+views	[{
+user_id	string
+date_created	date
+}]
+promoted		string
+promoted_date	date
+content_media	[{
+image_url		string
+media_type		string
+image_dimension	string
+image_size		long
+image_row		string
+image_column		string
+image_extension	string
+width			string
+height			string
+orientation		string
+}]
+content_status		string
+video_completed	int
+content_clicks		int
+end_date		datetime
+link_url			string
+tags			string[]
+group	{
+group_id		string
+group_name		string
+interest		string
+group_image		string
+Access			string
+}
+}
