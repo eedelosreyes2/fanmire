@@ -30,13 +30,13 @@ router.delete('/:id', async (req, res) => {
 
 
 async function loadPostsCollection() {
-  const client = await mongodb.MongoClient.connect('MONGODBSTRING', {
+  const client = await mongodb.MongoClient.connect(process.env.MONGODB_STRING, {
     useNewUrlParser: true
   });
 
-  // USE ENVIRONMENT VARIABLES FOR INFO
+  // WE ARE USING ENVIRONMENT VARIABLES TO KEEP PRIVATE INFO SECURE
 
-  return client.db('MONGODBNAME').collection('posts'); // USE ENVIRONMENT VARIABLES FOR INFO
+  return client.db(process.env.MONGODB_NAME).collection('posts');
 }
 
 module.exports = router;
