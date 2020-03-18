@@ -22,7 +22,9 @@ router.post('/', async (req, res) => {
 // Delete Post
 router.delete('/:id', async (req, res) => {
   const posts = await loadPostsCollection();
-  await posts.deleteOne({ _id: new mongodb.ObjectID(req.params.id) });
+  await posts.deleteOne({
+    _id: new mongodb.ObjectID(req.params.id)
+  });
   res.status(200).send();
 });
 
@@ -32,7 +34,9 @@ async function loadPostsCollection() {
     useNewUrlParser: true
   });
 
-  return client.db('MONGODBNAME').collection('posts');
+  // USE ENVIRONMENT VARIABLES FOR INFO
+
+  return client.db('MONGODBNAME').collection('posts'); // USE ENVIRONMENT VARIABLES FOR INFO
 }
 
 module.exports = router;
