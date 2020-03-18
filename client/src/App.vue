@@ -1,6 +1,6 @@
 <template>
 <div id="app">
-  <img alt="Vue logo" src="./assets/logo.png">
+  <img alt="Fanmire logo" src="./assets/Fanmire_Icon_Horizontal_Red_400.png">
   <PostComponent />
 </div>
 </template>
