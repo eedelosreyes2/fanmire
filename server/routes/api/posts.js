@@ -1,3 +1,9 @@
+/* Revtrieve Environment Variables from .env */
+const path = require('path')
+require('dotenv').config({
+  path: path.resolve(__dirname, '../../../.env')
+});
+
 const express = require("express");
 const mongodb = require("mongodb");
 
@@ -14,7 +20,7 @@ router.post('/', async (req, res) => {
   const posts = await loadPostsCollection();
   await posts.insertOne({
     text: req.body.text,
-    createdAt: new Date() // will change this later to posts from SM
+    createdAt: new Date()
   });
   res.status(201).send();
 });
@@ -33,8 +39,6 @@ async function loadPostsCollection() {
   const client = await mongodb.MongoClient.connect(process.env.MONGODB_STRING, {
     useNewUrlParser: true
   });
-
-  // WE ARE USING ENVIRONMENT VARIABLES TO KEEP PRIVATE INFO SECURE
 
   return client.db(process.env.MONGODB_NAME).collection('posts');
 }

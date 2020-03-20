@@ -1,5 +1,10 @@
-console.log(require('dotenv').config());
+/* Revtrieve Environment Variables from .env */
+const path = require('path')
+require('dotenv').config({
+  path: path.resolve(__dirname, '../../../.env')
+});
 
+const fs = require('fs');
 var Twitter = require('twitter');
 
 var client = new Twitter({
@@ -10,18 +15,10 @@ var client = new Twitter({
 });
 
 var params = {
-  screen_name: 'nodejs'
+  screen_name: 'corona'
 };
 client.get('statuses/user_timeline', params, function(error, tweets, response) {
   if (!error) {
-    console.log(tweets);
+    fs.writeFileSync("./data/tweets.json", JSON.stringify(tweets, null, 4));
   }
-});
-
-console.log(process.env.TWITTER_CONSUMER_KEY);
-
-client.get('search/tweets', {
-  q: 'node.js'
-}, function(error, tweets, response) {
-  console.log(tweets);
 });
