@@ -13,9 +13,9 @@ var conf = {
     client_id:      'APP-PUBLIC-ID'
   , client_secret:  'APP-SECRET-ID'
   , scope:          'email, user_about_me, user_birthday, user_location, publish_actions'
-  // You have to set http://localhost:3000/ as your website
+  // You have to set http://localhost:5000/ as your website
   // using Settings -> Add platform -> Website
-  , redirect_uri:   'http://localhost:3000/auth'
+  , redirect_uri:   'http://localhost:5000/auth'
 };
 
 
