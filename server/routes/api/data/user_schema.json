@@ -1,0 +1,47 @@
+{
+  "id": "string",
+  "user_name": "string",
+  "user_type": "string",
+  "first_name": "string",
+  "last_name": "string",
+  "date_created": "date",
+  "gender": "string",
+  "birthday": "string",
+  "age": "int",
+  "user_image": "string",
+  "user_cover_image": "string",
+  "user_email": "string",
+  "user_mobile": "string",
+  "user_about": "string",
+  "user_title": "string",
+  "status": "string",
+  "user_website": "string",
+  "socials": [{
+    "_id": "string",
+    "social_platform": "string",
+    "social_username": "string",
+    "social_key": "string",
+    "social_link": "string"
+  }],
+  "Interests": [{
+    "interest_name": "string",
+    "interest_image": "string",
+    "active": "string",
+    "display_name": "string"
+  }],
+  "groups": [{
+    "group_id": "string",
+    "group_name": "string",
+    "interest": "string",
+    "group_image": "string",
+    "access": "string"
+  }],
+  "Follows": [{
+    "f_id": "string",
+    "followed_name": "string",
+    "followed_image": "string",
+    "followed_id": "string",
+    "follow_type": "string",
+    "status": "string"
+  }]
+}
