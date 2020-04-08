@@ -37,8 +37,8 @@ router.delete('/:id', async (req, res) => {
 
 async function loadPostsCollection() {
   const client = await mongodb.MongoClient.connect(process.env.MONGODB_STRING, {
-    useNewUrlParser: true
-    //,useUnifiedTopology: true
+    useNewUrlParser: true,
+    useUnifiedTopology: true
   });
 
   return client.db(process.env.MONGODB_NAME).collection('posts');

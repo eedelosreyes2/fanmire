@@ -15,7 +15,7 @@ var client = new Twitter({
 });
 
 var params = {
-  screen_name: '_elijah_d_r'
+  screen_name: 'elonmusk'
 };
 client.get('statuses/user_timeline', params, function(error, tweets, response) {
   if (!error) {
