@@ -1,0 +1,29 @@
+{
+  "id": "string",
+  "title_name": "string",
+  "first_name": "string",
+  "last_name": "string",
+  "gender": "string",
+  "birthday": "string",
+  "age": "int",
+  "celebrity_image": "string",
+  "celebrity_cover_image": "string",
+  "celebrity_about": "string",
+  "celebrity_type": "string",
+  "status": "string",
+  "celebrity_website": "string",
+  "posts": [{}],
+  "interests": [{
+    "interest_name": "string",
+    "interest_image": "string",
+    "active": "string",
+    "display_name": "string"
+  }],
+  "groups": [{
+    "group_id": "string",
+    "group_name": "string",
+    "interest": "string",
+    "group_image": "string",
+    "access": "string"
+  }]
+}
