@@ -1,12 +1,12 @@
 import axios from 'axios';
 
-const url = 'http://localhost:5000/api/posts/'; // change to proxy later
+const url = 'http://localhost:5000/api/posts'; // change to proxy later
 
 class MainFeedService {
   // Get Posts
-  static getPosts() {
+  static getPosts(celebrity) {
     return new Promise((resolve, reject) => {
-      axios.get(url).then((res) => {
+      axios.get(`${url}/${celebrity}/`).then((res) => {
           const data = res.data;
           resolve(
             data.map(post => ({
@@ -30,7 +30,7 @@ class MainFeedService {
 
   // Delete Post
   static deletePost(id) {
-    return axios.delete(`${url}${id}`);
+    return axios.delete(`${url}/${id}`);
   }
 }
 

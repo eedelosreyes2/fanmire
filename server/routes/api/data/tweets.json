@@ -1,225 +1,9 @@
 [
     {
-        "created_at": "Tue Mar 31 19:07:54 +0000 2020",
-        "id": 1245065298857742300,
-        "id_str": "1245065298857742336",
-        "text": "@NYCHealthSystem @Tesla Happy we could be helpful! More available if needed.",
-        "truncated": false,
-        "entities": {
-            "hashtags": [],
-            "symbols": [],
-            "user_mentions": [
-                {
-                    "screen_name": "NYCHealthSystem",
-                    "name": "NYC Health + Hospitals",
-                    "id": 65073830,
-                    "id_str": "65073830",
-                    "indices": [
-                        0,
-                        16
-                    ]
-                },
-                {
-                    "screen_name": "Tesla",
-                    "name": "Tesla",
-                    "id": 13298072,
-                    "id_str": "13298072",
-                    "indices": [
-                        17,
-                        23
-                    ]
-                }
-            ],
-            "urls": []
-        },
-        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
-        "in_reply_to_status_id": 1245008300518801400,
-        "in_reply_to_status_id_str": "1245008300518801408",
-        "in_reply_to_user_id": 65073830,
-        "in_reply_to_user_id_str": "65073830",
-        "in_reply_to_screen_name": "NYCHealthSystem",
-        "user": {
-            "id": 44196397,
-            "id_str": "44196397",
-            "name": "Elon Musk",
-            "screen_name": "elonmusk",
-            "location": "",
-            "description": "🚀 ☀️ 🚘 🧠 🕳",
-            "url": null,
-            "entities": {
-                "description": {
-                    "urls": []
-                }
-            },
-            "protected": false,
-            "followers_count": 32881871,
-            "friends_count": 82,
-            "listed_count": 54713,
-            "created_at": "Tue Jun 02 20:12:29 +0000 2009",
-            "favourites_count": 5043,
-            "utc_offset": null,
-            "time_zone": null,
-            "geo_enabled": false,
-            "verified": true,
-            "statuses_count": 10339,
-            "lang": null,
-            "contributors_enabled": false,
-            "is_translator": false,
-            "is_translation_enabled": false,
-            "profile_background_color": "C0DEED",
-            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-            "profile_background_tile": false,
-            "profile_image_url": "http://pbs.twimg.com/profile_images/1223183340171415552/XQcxk5Zb_normal.jpg",
-            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1223183340171415552/XQcxk5Zb_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/44196397/1576183471",
-            "profile_link_color": "0084B4",
-            "profile_sidebar_border_color": "C0DEED",
-            "profile_sidebar_fill_color": "DDEEF6",
-            "profile_text_color": "333333",
-            "profile_use_background_image": true,
-            "has_extended_profile": true,
-            "default_profile": false,
-            "default_profile_image": false,
-            "following": true,
-            "follow_request_sent": false,
-            "notifications": false,
-            "translator_type": "none"
-        },
-        "geo": null,
-        "coordinates": null,
-        "place": null,
-        "contributors": null,
-        "is_quote_status": false,
-        "retweet_count": 393,
-        "favorite_count": 9565,
-        "favorited": false,
-        "retweeted": false,
-        "lang": "en"
-    },
-    {
-        "created_at": "Tue Mar 31 19:02:42 +0000 2020",
-        "id": 1245063992361406500,
-        "id_str": "1245063992361406464",
-        "text": "@Erdayastronaut @SpaceX @flightclubio Mass of initial SN ships will be a little high &amp; Isp a little low, but, over… https://t.co/EFbcDyfK9W",
-        "truncated": true,
-        "entities": {
-            "hashtags": [],
-            "symbols": [],
-            "user_mentions": [
-                {
-                    "screen_name": "Erdayastronaut",
-                    "name": "Everyday Astronaut",
-                    "id": 3167257102,
-                    "id_str": "3167257102",
-                    "indices": [
-                        0,
-                        15
-                    ]
-                },
-                {
-                    "screen_name": "SpaceX",
-                    "name": "SpaceX",
-                    "id": 34743251,
-                    "id_str": "34743251",
-                    "indices": [
-                        16,
-                        23
-                    ]
-                },
-                {
-                    "screen_name": "flightclubio",
-                    "name": "Flight Club",
-                    "id": 826665509152292900,
-                    "id_str": "826665509152292864",
-                    "indices": [
-                        24,
-                        37
-                    ]
-                }
-            ],
-            "urls": [
-                {
-                    "url": "https://t.co/EFbcDyfK9W",
-                    "expanded_url": "https://twitter.com/i/web/status/1245063992361406464",
-                    "display_url": "twitter.com/i/web/status/1…",
-                    "indices": [
-                        120,
-                        143
-                    ]
-                }
-            ]
-        },
-        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
-        "in_reply_to_status_id": 1245052949170094000,
-        "in_reply_to_status_id_str": "1245052949170094082",
-        "in_reply_to_user_id": 3167257102,
-        "in_reply_to_user_id_str": "3167257102",
-        "in_reply_to_screen_name": "Erdayastronaut",
-        "user": {
-            "id": 44196397,
-            "id_str": "44196397",
-            "name": "Elon Musk",
-            "screen_name": "elonmusk",
-            "location": "",
-            "description": "🚀 ☀️ 🚘 🧠 🕳",
-            "url": null,
-            "entities": {
-                "description": {
-                    "urls": []
-                }
-            },
-            "protected": false,
-            "followers_count": 32881871,
-            "friends_count": 82,
-            "listed_count": 54713,
-            "created_at": "Tue Jun 02 20:12:29 +0000 2009",
-            "favourites_count": 5043,
-            "utc_offset": null,
-            "time_zone": null,
-            "geo_enabled": false,
-            "verified": true,
-            "statuses_count": 10339,
-            "lang": null,
-            "contributors_enabled": false,
-            "is_translator": false,
-            "is_translation_enabled": false,
-            "profile_background_color": "C0DEED",
-            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-            "profile_background_tile": false,
-            "profile_image_url": "http://pbs.twimg.com/profile_images/1223183340171415552/XQcxk5Zb_normal.jpg",
-            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1223183340171415552/XQcxk5Zb_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/44196397/1576183471",
-            "profile_link_color": "0084B4",
-            "profile_sidebar_border_color": "C0DEED",
-            "profile_sidebar_fill_color": "DDEEF6",
-            "profile_text_color": "333333",
-            "profile_use_background_image": true,
-            "has_extended_profile": true,
-            "default_profile": false,
-            "default_profile_image": false,
-            "following": true,
-            "follow_request_sent": false,
-            "notifications": false,
-            "translator_type": "none"
-        },
-        "geo": null,
-        "coordinates": null,
-        "place": null,
-        "contributors": null,
-        "is_quote_status": false,
-        "retweet_count": 116,
-        "favorite_count": 2291,
-        "favorited": false,
-        "retweeted": false,
-        "lang": "en"
-    },
-    {
-        "created_at": "Tue Mar 31 15:27:02 +0000 2020",
-        "id": 1245009716935188500,
-        "id_str": "1245009716935188481",
-        "text": "We have extra FDA-approved ventilators. Will ship to hospitals worldwide within Tesla delivery regions. Device &amp; sh… https://t.co/34PQmddogo",
+        "created_at": "Fri Apr 17 16:00:44 +0000 2020",
+        "id": 1251178791088590800,
+        "id_str": "1251178791088590855",
+        "text": "\"You can find love, fear, friends, enemies, violence, dancing, sex, demons, angels, loneliness, and togetherness al… https://t.co/XJTyW9lMH4",
         "truncated": true,
         "entities": {
             "hashtags": [],
@@ -227,164 +11,79 @@
             "user_mentions": [],
             "urls": [
                 {
-                    "url": "https://t.co/34PQmddogo",
-                    "expanded_url": "https://twitter.com/i/web/status/1245009716935188481",
+                    "url": "https://t.co/XJTyW9lMH4",
+                    "expanded_url": "https://twitter.com/i/web/status/1251178791088590855",
                     "display_url": "twitter.com/i/web/status/1…",
                     "indices": [
-                        121,
-                        144
+                        117,
+                        140
                     ]
                 }
             ]
         },
-        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "source": "<a href=\"https://app.agorapulse.com\" rel=\"nofollow\">AgoraPulse Manager</a>",
         "in_reply_to_status_id": null,
         "in_reply_to_status_id_str": null,
         "in_reply_to_user_id": null,
         "in_reply_to_user_id_str": null,
         "in_reply_to_screen_name": null,
         "user": {
-            "id": 44196397,
-            "id_str": "44196397",
-            "name": "Elon Musk",
-            "screen_name": "elonmusk",
-            "location": "",
-            "description": "🚀 ☀️ 🚘 🧠 🕳",
-            "url": null,
+            "id": 3438432597,
+            "id_str": "3438432597",
+            "name": "Fanmire",
+            "screen_name": "Fanmire_",
+            "location": "New York, NY",
+            "description": "Strengthening Connections between Fans & Celebrities",
+            "url": "http://t.co/cGOZzxO2dB",
             "entities": {
-                "description": {
-                    "urls": []
-                }
-            },
-            "protected": false,
-            "followers_count": 32881871,
-            "friends_count": 82,
-            "listed_count": 54713,
-            "created_at": "Tue Jun 02 20:12:29 +0000 2009",
-            "favourites_count": 5043,
-            "utc_offset": null,
-            "time_zone": null,
-            "geo_enabled": false,
-            "verified": true,
-            "statuses_count": 10339,
-            "lang": null,
-            "contributors_enabled": false,
-            "is_translator": false,
-            "is_translation_enabled": false,
-            "profile_background_color": "C0DEED",
-            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-            "profile_background_tile": false,
-            "profile_image_url": "http://pbs.twimg.com/profile_images/1223183340171415552/XQcxk5Zb_normal.jpg",
-            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1223183340171415552/XQcxk5Zb_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/44196397/1576183471",
-            "profile_link_color": "0084B4",
-            "profile_sidebar_border_color": "C0DEED",
-            "profile_sidebar_fill_color": "DDEEF6",
-            "profile_text_color": "333333",
-            "profile_use_background_image": true,
-            "has_extended_profile": true,
-            "default_profile": false,
-            "default_profile_image": false,
-            "following": true,
-            "follow_request_sent": false,
-            "notifications": false,
-            "translator_type": "none"
-        },
-        "geo": null,
-        "coordinates": null,
-        "place": null,
-        "contributors": null,
-        "is_quote_status": false,
-        "retweet_count": 50270,
-        "favorite_count": 225405,
-        "favorited": false,
-        "retweeted": false,
-        "lang": "en"
-    },
-    {
-        "created_at": "Tue Mar 31 15:11:05 +0000 2020",
-        "id": 1245005702441001000,
-        "id_str": "1245005702441000962",
-        "text": "@Teslarati @BocaChicaGal The legs extend &amp; telescope out, so are longer than they seem, but not as long as they will be for SN4+",
-        "truncated": false,
-        "entities": {
-            "hashtags": [],
-            "symbols": [],
-            "user_mentions": [
-                {
-                    "screen_name": "Teslarati",
-                    "name": "TESLARATI",
-                    "id": 1308211178,
-                    "id_str": "1308211178",
-                    "indices": [
-                        0,
-                        10
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/cGOZzxO2dB",
+                            "expanded_url": "http://www.fanmire.com",
+                            "display_url": "fanmire.com",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
                     ]
                 },
-                {
-                    "screen_name": "BocaChicaGal",
-                    "name": "Mary",
-                    "id": 1077756486997168100,
-                    "id_str": "1077756486997168128",
-                    "indices": [
-                        11,
-                        24
-                    ]
-                }
-            ],
-            "urls": []
-        },
-        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
-        "in_reply_to_status_id": 1244912483246227500,
-        "in_reply_to_status_id_str": "1244912483246227461",
-        "in_reply_to_user_id": 1308211178,
-        "in_reply_to_user_id_str": "1308211178",
-        "in_reply_to_screen_name": "Teslarati",
-        "user": {
-            "id": 44196397,
-            "id_str": "44196397",
-            "name": "Elon Musk",
-            "screen_name": "elonmusk",
-            "location": "",
-            "description": "🚀 ☀️ 🚘 🧠 🕳",
-            "url": null,
-            "entities": {
                 "description": {
                     "urls": []
                 }
             },
             "protected": false,
-            "followers_count": 32881871,
-            "friends_count": 82,
-            "listed_count": 54713,
-            "created_at": "Tue Jun 02 20:12:29 +0000 2009",
-            "favourites_count": 5043,
+            "followers_count": 23,
+            "friends_count": 38,
+            "listed_count": 2,
+            "created_at": "Mon Aug 24 21:26:16 +0000 2015",
+            "favourites_count": 5,
             "utc_offset": null,
             "time_zone": null,
             "geo_enabled": false,
-            "verified": true,
-            "statuses_count": 10339,
+            "verified": false,
+            "statuses_count": 121,
             "lang": null,
             "contributors_enabled": false,
             "is_translator": false,
             "is_translation_enabled": false,
-            "profile_background_color": "C0DEED",
+            "profile_background_color": "000000",
             "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
             "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
             "profile_background_tile": false,
-            "profile_image_url": "http://pbs.twimg.com/profile_images/1223183340171415552/XQcxk5Zb_normal.jpg",
-            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1223183340171415552/XQcxk5Zb_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/44196397/1576183471",
-            "profile_link_color": "0084B4",
-            "profile_sidebar_border_color": "C0DEED",
-            "profile_sidebar_fill_color": "DDEEF6",
-            "profile_text_color": "333333",
-            "profile_use_background_image": true,
-            "has_extended_profile": true,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/902533444655185922/p1iUjA9S_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/902533444655185922/p1iUjA9S_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/3438432597/1490068852",
+            "profile_link_color": "1B95E0",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "has_extended_profile": false,
             "default_profile": false,
             "default_profile_image": false,
-            "following": true,
+            "following": false,
             "follow_request_sent": false,
             "notifications": false,
             "translator_type": "none"
@@ -394,1210 +93,98 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 185,
-        "favorite_count": 3705,
-        "favorited": false,
-        "retweeted": false,
-        "lang": "en"
-    },
-    {
-        "created_at": "Tue Mar 31 04:25:28 +0000 2020",
-        "id": 1244843228181885000,
-        "id_str": "1244843228181884929",
-        "text": "@neiltyson One day we will",
-        "truncated": false,
-        "entities": {
-            "hashtags": [],
-            "symbols": [],
-            "user_mentions": [
-                {
-                    "screen_name": "neiltyson",
-                    "name": "Neil deGrasse Tyson",
-                    "id": 19725644,
-                    "id_str": "19725644",
-                    "indices": [
-                        0,
-                        10
-                    ]
-                }
-            ],
-            "urls": []
-        },
-        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
-        "in_reply_to_status_id": 1244837442756259800,
-        "in_reply_to_status_id_str": "1244837442756259842",
-        "in_reply_to_user_id": 19725644,
-        "in_reply_to_user_id_str": "19725644",
-        "in_reply_to_screen_name": "neiltyson",
-        "user": {
-            "id": 44196397,
-            "id_str": "44196397",
-            "name": "Elon Musk",
-            "screen_name": "elonmusk",
-            "location": "",
-            "description": "🚀 ☀️ 🚘 🧠 🕳",
-            "url": null,
-            "entities": {
-                "description": {
-                    "urls": []
-                }
-            },
-            "protected": false,
-            "followers_count": 32881871,
-            "friends_count": 82,
-            "listed_count": 54713,
-            "created_at": "Tue Jun 02 20:12:29 +0000 2009",
-            "favourites_count": 5043,
-            "utc_offset": null,
-            "time_zone": null,
-            "geo_enabled": false,
-            "verified": true,
-            "statuses_count": 10339,
-            "lang": null,
-            "contributors_enabled": false,
-            "is_translator": false,
-            "is_translation_enabled": false,
-            "profile_background_color": "C0DEED",
-            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-            "profile_background_tile": false,
-            "profile_image_url": "http://pbs.twimg.com/profile_images/1223183340171415552/XQcxk5Zb_normal.jpg",
-            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1223183340171415552/XQcxk5Zb_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/44196397/1576183471",
-            "profile_link_color": "0084B4",
-            "profile_sidebar_border_color": "C0DEED",
-            "profile_sidebar_fill_color": "DDEEF6",
-            "profile_text_color": "333333",
-            "profile_use_background_image": true,
-            "has_extended_profile": true,
-            "default_profile": false,
-            "default_profile_image": false,
-            "following": true,
-            "follow_request_sent": false,
-            "notifications": false,
-            "translator_type": "none"
-        },
-        "geo": null,
-        "coordinates": null,
-        "place": null,
-        "contributors": null,
-        "is_quote_status": false,
-        "retweet_count": 3676,
-        "favorite_count": 81557,
-        "favorited": false,
-        "retweeted": false,
-        "lang": "en"
-    },
-    {
-        "created_at": "Tue Mar 31 01:19:43 +0000 2020",
-        "id": 1244796484043882500,
-        "id_str": "1244796484043882497",
-        "text": "@MarsMeditation @RationalEtienne @PPathole The S-curve appears to be entering the logarithmic phase",
-        "truncated": false,
-        "entities": {
-            "hashtags": [],
-            "symbols": [],
-            "user_mentions": [
-                {
-                    "screen_name": "MarsMeditation",
-                    "name": "Mars Meditation",
-                    "id": 1149493366905643000,
-                    "id_str": "1149493366905643008",
-                    "indices": [
-                        0,
-                        15
-                    ]
-                },
-                {
-                    "screen_name": "RationalEtienne",
-                    "name": "Hopeful Pope Of Muskanity",
-                    "id": 2241150253,
-                    "id_str": "2241150253",
-                    "indices": [
-                        16,
-                        32
-                    ]
-                },
-                {
-                    "screen_name": "PPathole",
-                    "name": "Pranay Pathole",
-                    "id": 1291945442,
-                    "id_str": "1291945442",
-                    "indices": [
-                        33,
-                        42
-                    ]
-                }
-            ],
-            "urls": []
-        },
-        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
-        "in_reply_to_status_id": 1244795249249026000,
-        "in_reply_to_status_id_str": "1244795249249026048",
-        "in_reply_to_user_id": 1149493366905643000,
-        "in_reply_to_user_id_str": "1149493366905643008",
-        "in_reply_to_screen_name": "MarsMeditation",
-        "user": {
-            "id": 44196397,
-            "id_str": "44196397",
-            "name": "Elon Musk",
-            "screen_name": "elonmusk",
-            "location": "",
-            "description": "🚀 ☀️ 🚘 🧠 🕳",
-            "url": null,
-            "entities": {
-                "description": {
-                    "urls": []
-                }
-            },
-            "protected": false,
-            "followers_count": 32881871,
-            "friends_count": 82,
-            "listed_count": 54713,
-            "created_at": "Tue Jun 02 20:12:29 +0000 2009",
-            "favourites_count": 5043,
-            "utc_offset": null,
-            "time_zone": null,
-            "geo_enabled": false,
-            "verified": true,
-            "statuses_count": 10339,
-            "lang": null,
-            "contributors_enabled": false,
-            "is_translator": false,
-            "is_translation_enabled": false,
-            "profile_background_color": "C0DEED",
-            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-            "profile_background_tile": false,
-            "profile_image_url": "http://pbs.twimg.com/profile_images/1223183340171415552/XQcxk5Zb_normal.jpg",
-            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1223183340171415552/XQcxk5Zb_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/44196397/1576183471",
-            "profile_link_color": "0084B4",
-            "profile_sidebar_border_color": "C0DEED",
-            "profile_sidebar_fill_color": "DDEEF6",
-            "profile_text_color": "333333",
-            "profile_use_background_image": true,
-            "has_extended_profile": true,
-            "default_profile": false,
-            "default_profile_image": false,
-            "following": true,
-            "follow_request_sent": false,
-            "notifications": false,
-            "translator_type": "none"
-        },
-        "geo": null,
-        "coordinates": null,
-        "place": null,
-        "contributors": null,
-        "is_quote_status": false,
-        "retweet_count": 86,
-        "favorite_count": 2433,
-        "favorited": false,
-        "retweeted": false,
-        "lang": "en"
-    },
-    {
-        "created_at": "Tue Mar 31 01:13:49 +0000 2020",
-        "id": 1244794998471696400,
-        "id_str": "1244794998471696384",
-        "text": "@RationalEtienne @PPathole https://t.co/jS68gnYs2U https://t.co/4a3h517Zdw",
-        "truncated": false,
-        "entities": {
-            "hashtags": [],
-            "symbols": [],
-            "user_mentions": [
-                {
-                    "screen_name": "RationalEtienne",
-                    "name": "Hopeful Pope Of Muskanity",
-                    "id": 2241150253,
-                    "id_str": "2241150253",
-                    "indices": [
-                        0,
-                        16
-                    ]
-                },
-                {
-                    "screen_name": "PPathole",
-                    "name": "Pranay Pathole",
-                    "id": 1291945442,
-                    "id_str": "1291945442",
-                    "indices": [
-                        17,
-                        26
-                    ]
-                }
-            ],
-            "urls": [
-                {
-                    "url": "https://t.co/jS68gnYs2U",
-                    "expanded_url": "https://www.cdc.gov/mmwr/volumes/69/wr/pdfs/mm6912e2-H.pdf",
-                    "display_url": "cdc.gov/mmwr/volumes/6…",
-                    "indices": [
-                        27,
-                        50
-                    ]
-                }
-            ],
-            "media": [
-                {
-                    "id": 1244794978678853600,
-                    "id_str": "1244794978678853637",
-                    "indices": [
-                        51,
-                        74
-                    ],
-                    "media_url": "http://pbs.twimg.com/media/EUZmcBpX0AUgvNA.jpg",
-                    "media_url_https": "https://pbs.twimg.com/media/EUZmcBpX0AUgvNA.jpg",
-                    "url": "https://t.co/4a3h517Zdw",
-                    "display_url": "pic.twitter.com/4a3h517Zdw",
-                    "expanded_url": "https://twitter.com/elonmusk/status/1244794998471696384/photo/1",
-                    "type": "photo",
-                    "sizes": {
-                        "thumb": {
-                            "w": 150,
-                            "h": 150,
-                            "resize": "crop"
-                        },
-                        "medium": {
-                            "w": 1024,
-                            "h": 472,
-                            "resize": "fit"
-                        },
-                        "large": {
-                            "w": 1024,
-                            "h": 472,
-                            "resize": "fit"
-                        },
-                        "small": {
-                            "w": 680,
-                            "h": 313,
-                            "resize": "fit"
-                        }
-                    }
-                }
-            ]
-        },
-        "extended_entities": {
-            "media": [
-                {
-                    "id": 1244794978678853600,
-                    "id_str": "1244794978678853637",
-                    "indices": [
-                        51,
-                        74
-                    ],
-                    "media_url": "http://pbs.twimg.com/media/EUZmcBpX0AUgvNA.jpg",
-                    "media_url_https": "https://pbs.twimg.com/media/EUZmcBpX0AUgvNA.jpg",
-                    "url": "https://t.co/4a3h517Zdw",
-                    "display_url": "pic.twitter.com/4a3h517Zdw",
-                    "expanded_url": "https://twitter.com/elonmusk/status/1244794998471696384/photo/1",
-                    "type": "photo",
-                    "sizes": {
-                        "thumb": {
-                            "w": 150,
-                            "h": 150,
-                            "resize": "crop"
-                        },
-                        "medium": {
-                            "w": 1024,
-                            "h": 472,
-                            "resize": "fit"
-                        },
-                        "large": {
-                            "w": 1024,
-                            "h": 472,
-                            "resize": "fit"
-                        },
-                        "small": {
-                            "w": 680,
-                            "h": 313,
-                            "resize": "fit"
-                        }
-                    }
-                }
-            ]
-        },
-        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
-        "in_reply_to_status_id": 1240758710646878200,
-        "in_reply_to_status_id_str": "1240758710646878208",
-        "in_reply_to_user_id": 44196397,
-        "in_reply_to_user_id_str": "44196397",
-        "in_reply_to_screen_name": "elonmusk",
-        "user": {
-            "id": 44196397,
-            "id_str": "44196397",
-            "name": "Elon Musk",
-            "screen_name": "elonmusk",
-            "location": "",
-            "description": "🚀 ☀️ 🚘 🧠 🕳",
-            "url": null,
-            "entities": {
-                "description": {
-                    "urls": []
-                }
-            },
-            "protected": false,
-            "followers_count": 32881871,
-            "friends_count": 82,
-            "listed_count": 54713,
-            "created_at": "Tue Jun 02 20:12:29 +0000 2009",
-            "favourites_count": 5043,
-            "utc_offset": null,
-            "time_zone": null,
-            "geo_enabled": false,
-            "verified": true,
-            "statuses_count": 10339,
-            "lang": null,
-            "contributors_enabled": false,
-            "is_translator": false,
-            "is_translation_enabled": false,
-            "profile_background_color": "C0DEED",
-            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-            "profile_background_tile": false,
-            "profile_image_url": "http://pbs.twimg.com/profile_images/1223183340171415552/XQcxk5Zb_normal.jpg",
-            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1223183340171415552/XQcxk5Zb_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/44196397/1576183471",
-            "profile_link_color": "0084B4",
-            "profile_sidebar_border_color": "C0DEED",
-            "profile_sidebar_fill_color": "DDEEF6",
-            "profile_text_color": "333333",
-            "profile_use_background_image": true,
-            "has_extended_profile": true,
-            "default_profile": false,
-            "default_profile_image": false,
-            "following": true,
-            "follow_request_sent": false,
-            "notifications": false,
-            "translator_type": "none"
-        },
-        "geo": null,
-        "coordinates": null,
-        "place": null,
-        "contributors": null,
-        "is_quote_status": false,
-        "retweet_count": 47,
-        "favorite_count": 428,
-        "favorited": false,
-        "retweeted": false,
-        "possibly_sensitive": false,
-        "lang": "und"
-    },
-    {
-        "created_at": "Mon Mar 30 23:40:53 +0000 2020",
-        "id": 1244771610034348000,
-        "id_str": "1244771610034348033",
-        "text": "@ian1219 Ok",
-        "truncated": false,
-        "entities": {
-            "hashtags": [],
-            "symbols": [],
-            "user_mentions": [
-                {
-                    "screen_name": "ian1219",
-                    "name": "Ian Adair",
-                    "id": 37454647,
-                    "id_str": "37454647",
-                    "indices": [
-                        0,
-                        8
-                    ]
-                }
-            ],
-            "urls": []
-        },
-        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
-        "in_reply_to_status_id": 1244771483752239000,
-        "in_reply_to_status_id_str": "1244771483752239104",
-        "in_reply_to_user_id": 37454647,
-        "in_reply_to_user_id_str": "37454647",
-        "in_reply_to_screen_name": "ian1219",
-        "user": {
-            "id": 44196397,
-            "id_str": "44196397",
-            "name": "Elon Musk",
-            "screen_name": "elonmusk",
-            "location": "",
-            "description": "🚀 ☀️ 🚘 🧠 🕳",
-            "url": null,
-            "entities": {
-                "description": {
-                    "urls": []
-                }
-            },
-            "protected": false,
-            "followers_count": 32881871,
-            "friends_count": 82,
-            "listed_count": 54713,
-            "created_at": "Tue Jun 02 20:12:29 +0000 2009",
-            "favourites_count": 5043,
-            "utc_offset": null,
-            "time_zone": null,
-            "geo_enabled": false,
-            "verified": true,
-            "statuses_count": 10339,
-            "lang": null,
-            "contributors_enabled": false,
-            "is_translator": false,
-            "is_translation_enabled": false,
-            "profile_background_color": "C0DEED",
-            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-            "profile_background_tile": false,
-            "profile_image_url": "http://pbs.twimg.com/profile_images/1223183340171415552/XQcxk5Zb_normal.jpg",
-            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1223183340171415552/XQcxk5Zb_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/44196397/1576183471",
-            "profile_link_color": "0084B4",
-            "profile_sidebar_border_color": "C0DEED",
-            "profile_sidebar_fill_color": "DDEEF6",
-            "profile_text_color": "333333",
-            "profile_use_background_image": true,
-            "has_extended_profile": true,
-            "default_profile": false,
-            "default_profile_image": false,
-            "following": true,
-            "follow_request_sent": false,
-            "notifications": false,
-            "translator_type": "none"
-        },
-        "geo": null,
-        "coordinates": null,
-        "place": null,
-        "contributors": null,
-        "is_quote_status": false,
-        "retweet_count": 32,
-        "favorite_count": 1548,
-        "favorited": false,
-        "retweeted": false,
-        "lang": "und"
-    },
-    {
-        "created_at": "Mon Mar 30 20:54:24 +0000 2020",
-        "id": 1244729713597255700,
-        "id_str": "1244729713597255682",
-        "text": "@RenataKonkoly https://t.co/pWB6ivYa0J",
-        "truncated": false,
-        "entities": {
-            "hashtags": [],
-            "symbols": [],
-            "user_mentions": [
-                {
-                    "screen_name": "RenataKonkoly",
-                    "name": "Renata Konkoly 🦔🐚",
-                    "id": 372959979,
-                    "id_str": "372959979",
-                    "indices": [
-                        0,
-                        14
-                    ]
-                }
-            ],
-            "urls": [],
-            "media": [
-                {
-                    "id": 1244729709612675000,
-                    "id_str": "1244729709612675074",
-                    "indices": [
-                        15,
-                        38
-                    ],
-                    "media_url": "http://pbs.twimg.com/media/EUYrE3bWsAIak3E.jpg",
-                    "media_url_https": "https://pbs.twimg.com/media/EUYrE3bWsAIak3E.jpg",
-                    "url": "https://t.co/pWB6ivYa0J",
-                    "display_url": "pic.twitter.com/pWB6ivYa0J",
-                    "expanded_url": "https://twitter.com/elonmusk/status/1244729713597255682/photo/1",
-                    "type": "photo",
-                    "sizes": {
-                        "thumb": {
-                            "w": 150,
-                            "h": 150,
-                            "resize": "crop"
-                        },
-                        "large": {
-                            "w": 504,
-                            "h": 480,
-                            "resize": "fit"
-                        },
-                        "medium": {
-                            "w": 504,
-                            "h": 480,
-                            "resize": "fit"
-                        },
-                        "small": {
-                            "w": 504,
-                            "h": 480,
-                            "resize": "fit"
-                        }
-                    }
-                }
-            ]
-        },
-        "extended_entities": {
-            "media": [
-                {
-                    "id": 1244729709612675000,
-                    "id_str": "1244729709612675074",
-                    "indices": [
-                        15,
-                        38
-                    ],
-                    "media_url": "http://pbs.twimg.com/media/EUYrE3bWsAIak3E.jpg",
-                    "media_url_https": "https://pbs.twimg.com/media/EUYrE3bWsAIak3E.jpg",
-                    "url": "https://t.co/pWB6ivYa0J",
-                    "display_url": "pic.twitter.com/pWB6ivYa0J",
-                    "expanded_url": "https://twitter.com/elonmusk/status/1244729713597255682/photo/1",
-                    "type": "photo",
-                    "sizes": {
-                        "thumb": {
-                            "w": 150,
-                            "h": 150,
-                            "resize": "crop"
-                        },
-                        "large": {
-                            "w": 504,
-                            "h": 480,
-                            "resize": "fit"
-                        },
-                        "medium": {
-                            "w": 504,
-                            "h": 480,
-                            "resize": "fit"
-                        },
-                        "small": {
-                            "w": 504,
-                            "h": 480,
-                            "resize": "fit"
-                        }
-                    }
-                }
-            ]
-        },
-        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
-        "in_reply_to_status_id": 1244685473534140400,
-        "in_reply_to_status_id_str": "1244685473534140417",
-        "in_reply_to_user_id": 372959979,
-        "in_reply_to_user_id_str": "372959979",
-        "in_reply_to_screen_name": "RenataKonkoly",
-        "user": {
-            "id": 44196397,
-            "id_str": "44196397",
-            "name": "Elon Musk",
-            "screen_name": "elonmusk",
-            "location": "",
-            "description": "🚀 ☀️ 🚘 🧠 🕳",
-            "url": null,
-            "entities": {
-                "description": {
-                    "urls": []
-                }
-            },
-            "protected": false,
-            "followers_count": 32881871,
-            "friends_count": 82,
-            "listed_count": 54713,
-            "created_at": "Tue Jun 02 20:12:29 +0000 2009",
-            "favourites_count": 5043,
-            "utc_offset": null,
-            "time_zone": null,
-            "geo_enabled": false,
-            "verified": true,
-            "statuses_count": 10339,
-            "lang": null,
-            "contributors_enabled": false,
-            "is_translator": false,
-            "is_translation_enabled": false,
-            "profile_background_color": "C0DEED",
-            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-            "profile_background_tile": false,
-            "profile_image_url": "http://pbs.twimg.com/profile_images/1223183340171415552/XQcxk5Zb_normal.jpg",
-            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1223183340171415552/XQcxk5Zb_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/44196397/1576183471",
-            "profile_link_color": "0084B4",
-            "profile_sidebar_border_color": "C0DEED",
-            "profile_sidebar_fill_color": "DDEEF6",
-            "profile_text_color": "333333",
-            "profile_use_background_image": true,
-            "has_extended_profile": true,
-            "default_profile": false,
-            "default_profile_image": false,
-            "following": true,
-            "follow_request_sent": false,
-            "notifications": false,
-            "translator_type": "none"
-        },
-        "geo": null,
-        "coordinates": null,
-        "place": null,
-        "contributors": null,
-        "is_quote_status": false,
-        "retweet_count": 968,
-        "favorite_count": 19842,
-        "favorited": false,
-        "retweeted": false,
-        "possibly_sensitive": false,
-        "lang": "und"
-    },
-    {
-        "created_at": "Mon Mar 30 18:36:20 +0000 2020",
-        "id": 1244694967303405600,
-        "id_str": "1244694967303405575",
-        "text": "@C3LT_Games Hopefully, Starship will have enough flight history to substitute for Dragon for NASA missions too",
-        "truncated": false,
-        "entities": {
-            "hashtags": [],
-            "symbols": [],
-            "user_mentions": [
-                {
-                    "screen_name": "C3LT_Games",
-                    "name": "C3LT",
-                    "id": 1111004268339843100,
-                    "id_str": "1111004268339843072",
-                    "indices": [
-                        0,
-                        11
-                    ]
-                }
-            ],
-            "urls": []
-        },
-        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
-        "in_reply_to_status_id": 1244694584493473800,
-        "in_reply_to_status_id_str": "1244694584493473794",
-        "in_reply_to_user_id": 1111004268339843100,
-        "in_reply_to_user_id_str": "1111004268339843072",
-        "in_reply_to_screen_name": "C3LT_Games",
-        "user": {
-            "id": 44196397,
-            "id_str": "44196397",
-            "name": "Elon Musk",
-            "screen_name": "elonmusk",
-            "location": "",
-            "description": "🚀 ☀️ 🚘 🧠 🕳",
-            "url": null,
-            "entities": {
-                "description": {
-                    "urls": []
-                }
-            },
-            "protected": false,
-            "followers_count": 32881871,
-            "friends_count": 82,
-            "listed_count": 54713,
-            "created_at": "Tue Jun 02 20:12:29 +0000 2009",
-            "favourites_count": 5043,
-            "utc_offset": null,
-            "time_zone": null,
-            "geo_enabled": false,
-            "verified": true,
-            "statuses_count": 10339,
-            "lang": null,
-            "contributors_enabled": false,
-            "is_translator": false,
-            "is_translation_enabled": false,
-            "profile_background_color": "C0DEED",
-            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-            "profile_background_tile": false,
-            "profile_image_url": "http://pbs.twimg.com/profile_images/1223183340171415552/XQcxk5Zb_normal.jpg",
-            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1223183340171415552/XQcxk5Zb_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/44196397/1576183471",
-            "profile_link_color": "0084B4",
-            "profile_sidebar_border_color": "C0DEED",
-            "profile_sidebar_fill_color": "DDEEF6",
-            "profile_text_color": "333333",
-            "profile_use_background_image": true,
-            "has_extended_profile": true,
-            "default_profile": false,
-            "default_profile_image": false,
-            "following": true,
-            "follow_request_sent": false,
-            "notifications": false,
-            "translator_type": "none"
-        },
-        "geo": null,
-        "coordinates": null,
-        "place": null,
-        "contributors": null,
-        "is_quote_status": false,
-        "retweet_count": 102,
-        "favorite_count": 1867,
-        "favorited": false,
-        "retweeted": false,
-        "lang": "en"
-    },
-    {
-        "created_at": "Mon Mar 30 18:31:17 +0000 2020",
-        "id": 1244693699772235800,
-        "id_str": "1244693699772235777",
-        "text": "https://t.co/bvh1TL12l6",
-        "truncated": false,
-        "entities": {
-            "hashtags": [],
-            "symbols": [],
-            "user_mentions": [],
-            "urls": [],
-            "media": [
-                {
-                    "id": 1244693692377706500,
-                    "id_str": "1244693692377706501",
-                    "indices": [
-                        0,
-                        23
-                    ],
-                    "media_url": "http://pbs.twimg.com/media/EUYKUYxXsAUy9fr.jpg",
-                    "media_url_https": "https://pbs.twimg.com/media/EUYKUYxXsAUy9fr.jpg",
-                    "url": "https://t.co/bvh1TL12l6",
-                    "display_url": "pic.twitter.com/bvh1TL12l6",
-                    "expanded_url": "https://twitter.com/elonmusk/status/1244693699772235777/photo/1",
-                    "type": "photo",
-                    "sizes": {
-                        "small": {
-                            "w": 510,
-                            "h": 680,
-                            "resize": "fit"
-                        },
-                        "thumb": {
-                            "w": 150,
-                            "h": 150,
-                            "resize": "crop"
-                        },
-                        "large": {
-                            "w": 1536,
-                            "h": 2048,
-                            "resize": "fit"
-                        },
-                        "medium": {
-                            "w": 900,
-                            "h": 1200,
-                            "resize": "fit"
-                        }
-                    }
-                }
-            ]
-        },
-        "extended_entities": {
-            "media": [
-                {
-                    "id": 1244693692377706500,
-                    "id_str": "1244693692377706501",
-                    "indices": [
-                        0,
-                        23
-                    ],
-                    "media_url": "http://pbs.twimg.com/media/EUYKUYxXsAUy9fr.jpg",
-                    "media_url_https": "https://pbs.twimg.com/media/EUYKUYxXsAUy9fr.jpg",
-                    "url": "https://t.co/bvh1TL12l6",
-                    "display_url": "pic.twitter.com/bvh1TL12l6",
-                    "expanded_url": "https://twitter.com/elonmusk/status/1244693699772235777/photo/1",
-                    "type": "photo",
-                    "sizes": {
-                        "small": {
-                            "w": 510,
-                            "h": 680,
-                            "resize": "fit"
-                        },
-                        "thumb": {
-                            "w": 150,
-                            "h": 150,
-                            "resize": "crop"
-                        },
-                        "large": {
-                            "w": 1536,
-                            "h": 2048,
-                            "resize": "fit"
-                        },
-                        "medium": {
-                            "w": 900,
-                            "h": 1200,
-                            "resize": "fit"
-                        }
-                    }
-                }
-            ]
-        },
-        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
-        "in_reply_to_status_id": 1244692738278334500,
-        "in_reply_to_status_id_str": "1244692738278334469",
-        "in_reply_to_user_id": 44196397,
-        "in_reply_to_user_id_str": "44196397",
-        "in_reply_to_screen_name": "elonmusk",
-        "user": {
-            "id": 44196397,
-            "id_str": "44196397",
-            "name": "Elon Musk",
-            "screen_name": "elonmusk",
-            "location": "",
-            "description": "🚀 ☀️ 🚘 🧠 🕳",
-            "url": null,
-            "entities": {
-                "description": {
-                    "urls": []
-                }
-            },
-            "protected": false,
-            "followers_count": 32881871,
-            "friends_count": 82,
-            "listed_count": 54713,
-            "created_at": "Tue Jun 02 20:12:29 +0000 2009",
-            "favourites_count": 5043,
-            "utc_offset": null,
-            "time_zone": null,
-            "geo_enabled": false,
-            "verified": true,
-            "statuses_count": 10339,
-            "lang": null,
-            "contributors_enabled": false,
-            "is_translator": false,
-            "is_translation_enabled": false,
-            "profile_background_color": "C0DEED",
-            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-            "profile_background_tile": false,
-            "profile_image_url": "http://pbs.twimg.com/profile_images/1223183340171415552/XQcxk5Zb_normal.jpg",
-            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1223183340171415552/XQcxk5Zb_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/44196397/1576183471",
-            "profile_link_color": "0084B4",
-            "profile_sidebar_border_color": "C0DEED",
-            "profile_sidebar_fill_color": "DDEEF6",
-            "profile_text_color": "333333",
-            "profile_use_background_image": true,
-            "has_extended_profile": true,
-            "default_profile": false,
-            "default_profile_image": false,
-            "following": true,
-            "follow_request_sent": false,
-            "notifications": false,
-            "translator_type": "none"
-        },
-        "geo": null,
-        "coordinates": null,
-        "place": null,
-        "contributors": null,
-        "is_quote_status": false,
-        "retweet_count": 591,
-        "favorite_count": 9332,
-        "favorited": false,
-        "retweeted": false,
-        "possibly_sensitive": false,
-        "lang": "und"
-    },
-    {
-        "created_at": "Mon Mar 30 18:27:28 +0000 2020",
-        "id": 1244692738278334500,
-        "id_str": "1244692738278334469",
-        "text": "Now on launch stand https://t.co/Yb5WIEjAkj",
-        "truncated": false,
-        "entities": {
-            "hashtags": [],
-            "symbols": [],
-            "user_mentions": [],
-            "urls": [],
-            "media": [
-                {
-                    "id": 1244692731995336700,
-                    "id_str": "1244692731995336708",
-                    "indices": [
-                        20,
-                        43
-                    ],
-                    "media_url": "http://pbs.twimg.com/media/EUYJcfEXsAQ-rXV.jpg",
-                    "media_url_https": "https://pbs.twimg.com/media/EUYJcfEXsAQ-rXV.jpg",
-                    "url": "https://t.co/Yb5WIEjAkj",
-                    "display_url": "pic.twitter.com/Yb5WIEjAkj",
-                    "expanded_url": "https://twitter.com/elonmusk/status/1244692738278334469/photo/1",
-                    "type": "photo",
-                    "sizes": {
-                        "thumb": {
-                            "w": 150,
-                            "h": 150,
-                            "resize": "crop"
-                        },
-                        "large": {
-                            "w": 1536,
-                            "h": 2048,
-                            "resize": "fit"
-                        },
-                        "medium": {
-                            "w": 900,
-                            "h": 1200,
-                            "resize": "fit"
-                        },
-                        "small": {
-                            "w": 510,
-                            "h": 680,
-                            "resize": "fit"
-                        }
-                    }
-                }
-            ]
-        },
-        "extended_entities": {
-            "media": [
-                {
-                    "id": 1244692731995336700,
-                    "id_str": "1244692731995336708",
-                    "indices": [
-                        20,
-                        43
-                    ],
-                    "media_url": "http://pbs.twimg.com/media/EUYJcfEXsAQ-rXV.jpg",
-                    "media_url_https": "https://pbs.twimg.com/media/EUYJcfEXsAQ-rXV.jpg",
-                    "url": "https://t.co/Yb5WIEjAkj",
-                    "display_url": "pic.twitter.com/Yb5WIEjAkj",
-                    "expanded_url": "https://twitter.com/elonmusk/status/1244692738278334469/photo/1",
-                    "type": "photo",
-                    "sizes": {
-                        "thumb": {
-                            "w": 150,
-                            "h": 150,
-                            "resize": "crop"
-                        },
-                        "large": {
-                            "w": 1536,
-                            "h": 2048,
-                            "resize": "fit"
-                        },
-                        "medium": {
-                            "w": 900,
-                            "h": 1200,
-                            "resize": "fit"
-                        },
-                        "small": {
-                            "w": 510,
-                            "h": 680,
-                            "resize": "fit"
-                        }
-                    }
-                }
-            ]
-        },
-        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
-        "in_reply_to_status_id": 1243084517587419100,
-        "in_reply_to_status_id_str": "1243084517587419141",
-        "in_reply_to_user_id": 44196397,
-        "in_reply_to_user_id_str": "44196397",
-        "in_reply_to_screen_name": "elonmusk",
-        "user": {
-            "id": 44196397,
-            "id_str": "44196397",
-            "name": "Elon Musk",
-            "screen_name": "elonmusk",
-            "location": "",
-            "description": "🚀 ☀️ 🚘 🧠 🕳",
-            "url": null,
-            "entities": {
-                "description": {
-                    "urls": []
-                }
-            },
-            "protected": false,
-            "followers_count": 32881871,
-            "friends_count": 82,
-            "listed_count": 54713,
-            "created_at": "Tue Jun 02 20:12:29 +0000 2009",
-            "favourites_count": 5043,
-            "utc_offset": null,
-            "time_zone": null,
-            "geo_enabled": false,
-            "verified": true,
-            "statuses_count": 10339,
-            "lang": null,
-            "contributors_enabled": false,
-            "is_translator": false,
-            "is_translation_enabled": false,
-            "profile_background_color": "C0DEED",
-            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-            "profile_background_tile": false,
-            "profile_image_url": "http://pbs.twimg.com/profile_images/1223183340171415552/XQcxk5Zb_normal.jpg",
-            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1223183340171415552/XQcxk5Zb_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/44196397/1576183471",
-            "profile_link_color": "0084B4",
-            "profile_sidebar_border_color": "C0DEED",
-            "profile_sidebar_fill_color": "DDEEF6",
-            "profile_text_color": "333333",
-            "profile_use_background_image": true,
-            "has_extended_profile": true,
-            "default_profile": false,
-            "default_profile_image": false,
-            "following": true,
-            "follow_request_sent": false,
-            "notifications": false,
-            "translator_type": "none"
-        },
-        "geo": null,
-        "coordinates": null,
-        "place": null,
-        "contributors": null,
-        "is_quote_status": false,
-        "retweet_count": 908,
-        "favorite_count": 16295,
+        "retweet_count": 0,
+        "favorite_count": 0,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
         "lang": "en"
     },
     {
-        "created_at": "Mon Mar 30 18:22:20 +0000 2020",
-        "id": 1244691444855603200,
-        "id_str": "1244691444855603200",
-        "text": "@teslaownersSV Seeing friends",
-        "truncated": false,
-        "entities": {
-            "hashtags": [],
-            "symbols": [],
-            "user_mentions": [
-                {
-                    "screen_name": "teslaownersSV",
-                    "name": "Tesla Owners Silicon Valley",
-                    "id": 1016059981907386400,
-                    "id_str": "1016059981907386368",
-                    "indices": [
-                        0,
-                        14
-                    ]
-                }
-            ],
-            "urls": []
-        },
-        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
-        "in_reply_to_status_id": 1244691293147500500,
-        "in_reply_to_status_id_str": "1244691293147500544",
-        "in_reply_to_user_id": 1016059981907386400,
-        "in_reply_to_user_id_str": "1016059981907386368",
-        "in_reply_to_screen_name": "teslaownersSV",
-        "user": {
-            "id": 44196397,
-            "id_str": "44196397",
-            "name": "Elon Musk",
-            "screen_name": "elonmusk",
-            "location": "",
-            "description": "🚀 ☀️ 🚘 🧠 🕳",
-            "url": null,
-            "entities": {
-                "description": {
-                    "urls": []
-                }
-            },
-            "protected": false,
-            "followers_count": 32881871,
-            "friends_count": 82,
-            "listed_count": 54713,
-            "created_at": "Tue Jun 02 20:12:29 +0000 2009",
-            "favourites_count": 5043,
-            "utc_offset": null,
-            "time_zone": null,
-            "geo_enabled": false,
-            "verified": true,
-            "statuses_count": 10339,
-            "lang": null,
-            "contributors_enabled": false,
-            "is_translator": false,
-            "is_translation_enabled": false,
-            "profile_background_color": "C0DEED",
-            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-            "profile_background_tile": false,
-            "profile_image_url": "http://pbs.twimg.com/profile_images/1223183340171415552/XQcxk5Zb_normal.jpg",
-            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1223183340171415552/XQcxk5Zb_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/44196397/1576183471",
-            "profile_link_color": "0084B4",
-            "profile_sidebar_border_color": "C0DEED",
-            "profile_sidebar_fill_color": "DDEEF6",
-            "profile_text_color": "333333",
-            "profile_use_background_image": true,
-            "has_extended_profile": true,
-            "default_profile": false,
-            "default_profile_image": false,
-            "following": true,
-            "follow_request_sent": false,
-            "notifications": false,
-            "translator_type": "none"
-        },
-        "geo": null,
-        "coordinates": null,
-        "place": null,
-        "contributors": null,
-        "is_quote_status": false,
-        "retweet_count": 66,
-        "favorite_count": 1964,
-        "favorited": false,
-        "retweeted": false,
-        "lang": "en"
-    },
-    {
-        "created_at": "Mon Mar 30 18:17:00 +0000 2020",
-        "id": 1244690105304055800,
-        "id_str": "1244690105304055810",
-        "text": "Hello from the Inside\nhttps://t.co/SV3fWL3bkp",
-        "truncated": false,
+        "created_at": "Wed Apr 15 17:01:19 +0000 2020",
+        "id": 1250469261144981500,
+        "id_str": "1250469261144981507",
+        "text": "We're definitely ready. Stay tuned in to gain insight on what we're doing during the shutdown to help us work hard.… https://t.co/Fg4jkhTFhR",
+        "truncated": true,
         "entities": {
             "hashtags": [],
             "symbols": [],
             "user_mentions": [],
             "urls": [
                 {
-                    "url": "https://t.co/SV3fWL3bkp",
-                    "expanded_url": "https://m.youtube.com/watch?feature=youtu.be&v=M5azNpTwVk8",
-                    "display_url": "m.youtube.com/watch?feature=…",
+                    "url": "https://t.co/Fg4jkhTFhR",
+                    "expanded_url": "https://twitter.com/i/web/status/1250469261144981507",
+                    "display_url": "twitter.com/i/web/status/1…",
                     "indices": [
-                        22,
-                        45
+                        117,
+                        140
                     ]
                 }
             ]
         },
-        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "source": "<a href=\"https://app.agorapulse.com\" rel=\"nofollow\">AgoraPulse Manager</a>",
         "in_reply_to_status_id": null,
         "in_reply_to_status_id_str": null,
         "in_reply_to_user_id": null,
         "in_reply_to_user_id_str": null,
         "in_reply_to_screen_name": null,
         "user": {
-            "id": 44196397,
-            "id_str": "44196397",
-            "name": "Elon Musk",
-            "screen_name": "elonmusk",
-            "location": "",
-            "description": "🚀 ☀️ 🚘 🧠 🕳",
-            "url": null,
+            "id": 3438432597,
+            "id_str": "3438432597",
+            "name": "Fanmire",
+            "screen_name": "Fanmire_",
+            "location": "New York, NY",
+            "description": "Strengthening Connections between Fans & Celebrities",
+            "url": "http://t.co/cGOZzxO2dB",
             "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/cGOZzxO2dB",
+                            "expanded_url": "http://www.fanmire.com",
+                            "display_url": "fanmire.com",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
                 "description": {
                     "urls": []
                 }
             },
             "protected": false,
-            "followers_count": 32881871,
-            "friends_count": 82,
-            "listed_count": 54713,
-            "created_at": "Tue Jun 02 20:12:29 +0000 2009",
-            "favourites_count": 5043,
+            "followers_count": 23,
+            "friends_count": 38,
+            "listed_count": 2,
+            "created_at": "Mon Aug 24 21:26:16 +0000 2015",
+            "favourites_count": 5,
             "utc_offset": null,
             "time_zone": null,
             "geo_enabled": false,
-            "verified": true,
-            "statuses_count": 10339,
+            "verified": false,
+            "statuses_count": 121,
             "lang": null,
             "contributors_enabled": false,
             "is_translator": false,
             "is_translation_enabled": false,
-            "profile_background_color": "C0DEED",
+            "profile_background_color": "000000",
             "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
             "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
             "profile_background_tile": false,
-            "profile_image_url": "http://pbs.twimg.com/profile_images/1223183340171415552/XQcxk5Zb_normal.jpg",
-            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1223183340171415552/XQcxk5Zb_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/44196397/1576183471",
-            "profile_link_color": "0084B4",
-            "profile_sidebar_border_color": "C0DEED",
-            "profile_sidebar_fill_color": "DDEEF6",
-            "profile_text_color": "333333",
-            "profile_use_background_image": true,
-            "has_extended_profile": true,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/902533444655185922/p1iUjA9S_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/902533444655185922/p1iUjA9S_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/3438432597/1490068852",
+            "profile_link_color": "1B95E0",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "has_extended_profile": false,
             "default_profile": false,
             "default_profile_image": false,
-            "following": true,
+            "following": false,
             "follow_request_sent": false,
             "notifications": false,
             "translator_type": "none"
@@ -1607,153 +194,98 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 1264,
-        "favorite_count": 11492,
+        "retweet_count": 0,
+        "favorite_count": 0,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
         "lang": "en"
     },
     {
-        "created_at": "Mon Mar 30 17:53:30 +0000 2020",
-        "id": 1244684187476660200,
-        "id_str": "1244684187476660224",
-        "text": "Logarithm graphs coming soon https://t.co/Fc81TDSQgc",
-        "truncated": false,
+        "created_at": "Tue Apr 14 17:01:12 +0000 2020",
+        "id": 1250106847513673700,
+        "id_str": "1250106847513673732",
+        "text": "Blossoming flowers and trees can remind you of how beautiful life can be, but we understand how hard that can be. N… https://t.co/Lp31SqO0Rg",
+        "truncated": true,
         "entities": {
             "hashtags": [],
             "symbols": [],
             "user_mentions": [],
-            "urls": [],
-            "media": [
+            "urls": [
                 {
-                    "id": 1244684183013900300,
-                    "id_str": "1244684183013900288",
+                    "url": "https://t.co/Lp31SqO0Rg",
+                    "expanded_url": "https://twitter.com/i/web/status/1250106847513673732",
+                    "display_url": "twitter.com/i/web/status/1…",
                     "indices": [
-                        29,
-                        52
-                    ],
-                    "media_url": "http://pbs.twimg.com/media/EUYBq3oXQAARDVg.jpg",
-                    "media_url_https": "https://pbs.twimg.com/media/EUYBq3oXQAARDVg.jpg",
-                    "url": "https://t.co/Fc81TDSQgc",
-                    "display_url": "pic.twitter.com/Fc81TDSQgc",
-                    "expanded_url": "https://twitter.com/elonmusk/status/1244684187476660224/photo/1",
-                    "type": "photo",
-                    "sizes": {
-                        "thumb": {
-                            "w": 150,
-                            "h": 150,
-                            "resize": "crop"
-                        },
-                        "large": {
-                            "w": 1029,
-                            "h": 775,
-                            "resize": "fit"
-                        },
-                        "small": {
-                            "w": 680,
-                            "h": 512,
-                            "resize": "fit"
-                        },
-                        "medium": {
-                            "w": 1029,
-                            "h": 775,
-                            "resize": "fit"
-                        }
-                    }
+                        117,
+                        140
+                    ]
                 }
             ]
         },
-        "extended_entities": {
-            "media": [
-                {
-                    "id": 1244684183013900300,
-                    "id_str": "1244684183013900288",
-                    "indices": [
-                        29,
-                        52
-                    ],
-                    "media_url": "http://pbs.twimg.com/media/EUYBq3oXQAARDVg.jpg",
-                    "media_url_https": "https://pbs.twimg.com/media/EUYBq3oXQAARDVg.jpg",
-                    "url": "https://t.co/Fc81TDSQgc",
-                    "display_url": "pic.twitter.com/Fc81TDSQgc",
-                    "expanded_url": "https://twitter.com/elonmusk/status/1244684187476660224/photo/1",
-                    "type": "photo",
-                    "sizes": {
-                        "thumb": {
-                            "w": 150,
-                            "h": 150,
-                            "resize": "crop"
-                        },
-                        "large": {
-                            "w": 1029,
-                            "h": 775,
-                            "resize": "fit"
-                        },
-                        "small": {
-                            "w": 680,
-                            "h": 512,
-                            "resize": "fit"
-                        },
-                        "medium": {
-                            "w": 1029,
-                            "h": 775,
-                            "resize": "fit"
-                        }
-                    }
-                }
-            ]
-        },
-        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "source": "<a href=\"https://app.agorapulse.com\" rel=\"nofollow\">AgoraPulse Manager</a>",
         "in_reply_to_status_id": null,
         "in_reply_to_status_id_str": null,
         "in_reply_to_user_id": null,
         "in_reply_to_user_id_str": null,
         "in_reply_to_screen_name": null,
         "user": {
-            "id": 44196397,
-            "id_str": "44196397",
-            "name": "Elon Musk",
-            "screen_name": "elonmusk",
-            "location": "",
-            "description": "🚀 ☀️ 🚘 🧠 🕳",
-            "url": null,
+            "id": 3438432597,
+            "id_str": "3438432597",
+            "name": "Fanmire",
+            "screen_name": "Fanmire_",
+            "location": "New York, NY",
+            "description": "Strengthening Connections between Fans & Celebrities",
+            "url": "http://t.co/cGOZzxO2dB",
             "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/cGOZzxO2dB",
+                            "expanded_url": "http://www.fanmire.com",
+                            "display_url": "fanmire.com",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
                 "description": {
                     "urls": []
                 }
             },
             "protected": false,
-            "followers_count": 32881871,
-            "friends_count": 82,
-            "listed_count": 54713,
-            "created_at": "Tue Jun 02 20:12:29 +0000 2009",
-            "favourites_count": 5043,
+            "followers_count": 23,
+            "friends_count": 38,
+            "listed_count": 2,
+            "created_at": "Mon Aug 24 21:26:16 +0000 2015",
+            "favourites_count": 5,
             "utc_offset": null,
             "time_zone": null,
             "geo_enabled": false,
-            "verified": true,
-            "statuses_count": 10339,
+            "verified": false,
+            "statuses_count": 121,
             "lang": null,
             "contributors_enabled": false,
             "is_translator": false,
             "is_translation_enabled": false,
-            "profile_background_color": "C0DEED",
+            "profile_background_color": "000000",
             "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
             "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
             "profile_background_tile": false,
-            "profile_image_url": "http://pbs.twimg.com/profile_images/1223183340171415552/XQcxk5Zb_normal.jpg",
-            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1223183340171415552/XQcxk5Zb_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/44196397/1576183471",
-            "profile_link_color": "0084B4",
-            "profile_sidebar_border_color": "C0DEED",
-            "profile_sidebar_fill_color": "DDEEF6",
-            "profile_text_color": "333333",
-            "profile_use_background_image": true,
-            "has_extended_profile": true,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/902533444655185922/p1iUjA9S_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/902533444655185922/p1iUjA9S_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/3438432597/1490068852",
+            "profile_link_color": "1B95E0",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "has_extended_profile": false,
             "default_profile": false,
             "default_profile_image": false,
-            "following": true,
+            "following": false,
             "follow_request_sent": false,
             "notifications": false,
             "translator_type": "none"
@@ -1763,86 +295,713 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 28055,
-        "favorite_count": 223024,
+        "retweet_count": 0,
+        "favorite_count": 0,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
         "lang": "en"
     },
     {
-        "created_at": "Mon Mar 30 17:46:11 +0000 2020",
-        "id": 1244682349041930200,
-        "id_str": "1244682349041930242",
-        "text": "@guardian Magnetic personality",
-        "truncated": false,
+        "created_at": "Thu Apr 09 17:00:16 +0000 2020",
+        "id": 1248294672629469200,
+        "id_str": "1248294672629469185",
+        "text": "If you've been lighting incense, balancing your chakras and simply creating a feeling of zen while in quarantine, t… https://t.co/MW2pT4CIjK",
+        "truncated": true,
         "entities": {
             "hashtags": [],
             "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/MW2pT4CIjK",
+                    "expanded_url": "https://twitter.com/i/web/status/1248294672629469185",
+                    "display_url": "twitter.com/i/web/status/1…",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"https://app.agorapulse.com\" rel=\"nofollow\">AgoraPulse Manager</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 3438432597,
+            "id_str": "3438432597",
+            "name": "Fanmire",
+            "screen_name": "Fanmire_",
+            "location": "New York, NY",
+            "description": "Strengthening Connections between Fans & Celebrities",
+            "url": "http://t.co/cGOZzxO2dB",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/cGOZzxO2dB",
+                            "expanded_url": "http://www.fanmire.com",
+                            "display_url": "fanmire.com",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 23,
+            "friends_count": 38,
+            "listed_count": 2,
+            "created_at": "Mon Aug 24 21:26:16 +0000 2015",
+            "favourites_count": 5,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 121,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "000000",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/902533444655185922/p1iUjA9S_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/902533444655185922/p1iUjA9S_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/3438432597/1490068852",
+            "profile_link_color": "1B95E0",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Wed Apr 08 17:00:16 +0000 2020",
+        "id": 1247932283530686500,
+        "id_str": "1247932283530686467",
+        "text": "We have some exciting things planned to ease the boredom. Be part of the Fanmire family and we wont let you down! 👪… https://t.co/nAOencrbix",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/nAOencrbix",
+                    "expanded_url": "https://twitter.com/i/web/status/1247932283530686467",
+                    "display_url": "twitter.com/i/web/status/1…",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"https://app.agorapulse.com\" rel=\"nofollow\">AgoraPulse Manager</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 3438432597,
+            "id_str": "3438432597",
+            "name": "Fanmire",
+            "screen_name": "Fanmire_",
+            "location": "New York, NY",
+            "description": "Strengthening Connections between Fans & Celebrities",
+            "url": "http://t.co/cGOZzxO2dB",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/cGOZzxO2dB",
+                            "expanded_url": "http://www.fanmire.com",
+                            "display_url": "fanmire.com",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 23,
+            "friends_count": 38,
+            "listed_count": 2,
+            "created_at": "Mon Aug 24 21:26:16 +0000 2015",
+            "favourites_count": 5,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 121,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "000000",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/902533444655185922/p1iUjA9S_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/902533444655185922/p1iUjA9S_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/3438432597/1490068852",
+            "profile_link_color": "1B95E0",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Tue Apr 07 18:05:08 +0000 2020",
+        "id": 1247586217870360600,
+        "id_str": "1247586217870360577",
+        "text": "This album was definitely out of the box! \"Please Excuse Me For Being Anti-Social\" by Rodey Ricch may have been the… https://t.co/uIGbJPUQTw",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/uIGbJPUQTw",
+                    "expanded_url": "https://twitter.com/i/web/status/1247586217870360577",
+                    "display_url": "twitter.com/i/web/status/1…",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"https://app.agorapulse.com\" rel=\"nofollow\">AgoraPulse Manager</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 3438432597,
+            "id_str": "3438432597",
+            "name": "Fanmire",
+            "screen_name": "Fanmire_",
+            "location": "New York, NY",
+            "description": "Strengthening Connections between Fans & Celebrities",
+            "url": "http://t.co/cGOZzxO2dB",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/cGOZzxO2dB",
+                            "expanded_url": "http://www.fanmire.com",
+                            "display_url": "fanmire.com",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 23,
+            "friends_count": 38,
+            "listed_count": 2,
+            "created_at": "Mon Aug 24 21:26:16 +0000 2015",
+            "favourites_count": 5,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 121,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "000000",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/902533444655185922/p1iUjA9S_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/902533444655185922/p1iUjA9S_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/3438432597/1490068852",
+            "profile_link_color": "1B95E0",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Fri Mar 27 17:01:11 +0000 2020",
+        "id": 1243583861294014500,
+        "id_str": "1243583861294014465",
+        "text": "Fanmire is working to curate the best online experiences for you, the fans. Stay tuned in for more live stream even… https://t.co/FJF275B3tE",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/FJF275B3tE",
+                    "expanded_url": "https://twitter.com/i/web/status/1243583861294014465",
+                    "display_url": "twitter.com/i/web/status/1…",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"https://app.agorapulse.com\" rel=\"nofollow\">AgoraPulse Manager</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 3438432597,
+            "id_str": "3438432597",
+            "name": "Fanmire",
+            "screen_name": "Fanmire_",
+            "location": "New York, NY",
+            "description": "Strengthening Connections between Fans & Celebrities",
+            "url": "http://t.co/cGOZzxO2dB",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/cGOZzxO2dB",
+                            "expanded_url": "http://www.fanmire.com",
+                            "display_url": "fanmire.com",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 23,
+            "friends_count": 38,
+            "listed_count": 2,
+            "created_at": "Mon Aug 24 21:26:16 +0000 2015",
+            "favourites_count": 5,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 121,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "000000",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/902533444655185922/p1iUjA9S_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/902533444655185922/p1iUjA9S_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/3438432597/1490068852",
+            "profile_link_color": "1B95E0",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Tue Mar 24 17:34:14 +0000 2020",
+        "id": 1242505012967870500,
+        "id_str": "1242505012967870468",
+        "text": "\"Is poor leadership hurting #COVID19 efforts? One thing we’ve learned since the worldwide #Coronavirus outbreak is… https://t.co/0aIweFu7UZ",
+        "truncated": true,
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "COVID19",
+                    "indices": [
+                        28,
+                        36
+                    ]
+                },
+                {
+                    "text": "Coronavirus",
+                    "indices": [
+                        90,
+                        102
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/0aIweFu7UZ",
+                    "expanded_url": "https://twitter.com/i/web/status/1242505012967870468",
+                    "display_url": "twitter.com/i/web/status/1…",
+                    "indices": [
+                        116,
+                        139
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"https://app.agorapulse.com\" rel=\"nofollow\">AgoraPulse Manager</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 3438432597,
+            "id_str": "3438432597",
+            "name": "Fanmire",
+            "screen_name": "Fanmire_",
+            "location": "New York, NY",
+            "description": "Strengthening Connections between Fans & Celebrities",
+            "url": "http://t.co/cGOZzxO2dB",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/cGOZzxO2dB",
+                            "expanded_url": "http://www.fanmire.com",
+                            "display_url": "fanmire.com",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 23,
+            "friends_count": 38,
+            "listed_count": 2,
+            "created_at": "Mon Aug 24 21:26:16 +0000 2015",
+            "favourites_count": 5,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 121,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "000000",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/902533444655185922/p1iUjA9S_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/902533444655185922/p1iUjA9S_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/3438432597/1490068852",
+            "profile_link_color": "1B95E0",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Mon Mar 23 15:53:23 +0000 2020",
+        "id": 1242117247851790300,
+        "id_str": "1242117247851790338",
+        "text": "RT @Pixar: Puppy love. #NationalPuppyDay https://t.co/EADQJp1Cjm",
+        "truncated": false,
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "NationalPuppyDay",
+                    "indices": [
+                        23,
+                        40
+                    ]
+                }
+            ],
+            "symbols": [],
             "user_mentions": [
                 {
-                    "screen_name": "guardian",
-                    "name": "The Guardian",
-                    "id": 87818409,
-                    "id_str": "87818409",
+                    "screen_name": "Pixar",
+                    "name": "Pixar",
+                    "id": 43192807,
+                    "id_str": "43192807",
                     "indices": [
-                        0,
+                        3,
                         9
                     ]
                 }
             ],
-            "urls": []
+            "urls": [],
+            "media": [
+                {
+                    "id": 1242113202843988000,
+                    "id_str": "1242113202843987969",
+                    "indices": [
+                        41,
+                        64
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/ETzfYIJWsAE7cs4.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/ETzfYIJWsAE7cs4.jpg",
+                    "url": "https://t.co/EADQJp1Cjm",
+                    "display_url": "pic.twitter.com/EADQJp1Cjm",
+                    "expanded_url": "https://twitter.com/Pixar/status/1242113205817704448/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "small": {
+                            "w": 680,
+                            "h": 680,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 1024,
+                            "h": 1024,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 1024,
+                            "h": 1024,
+                            "resize": "fit"
+                        }
+                    },
+                    "source_status_id": 1242113205817704400,
+                    "source_status_id_str": "1242113205817704448",
+                    "source_user_id": 43192807,
+                    "source_user_id_str": "43192807"
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 1242113202843988000,
+                    "id_str": "1242113202843987969",
+                    "indices": [
+                        41,
+                        64
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/ETzfYIJWsAE7cs4.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/ETzfYIJWsAE7cs4.jpg",
+                    "url": "https://t.co/EADQJp1Cjm",
+                    "display_url": "pic.twitter.com/EADQJp1Cjm",
+                    "expanded_url": "https://twitter.com/Pixar/status/1242113205817704448/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "small": {
+                            "w": 680,
+                            "h": 680,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 1024,
+                            "h": 1024,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 1024,
+                            "h": 1024,
+                            "resize": "fit"
+                        }
+                    },
+                    "source_status_id": 1242113205817704400,
+                    "source_status_id_str": "1242113205817704448",
+                    "source_user_id": 43192807,
+                    "source_user_id_str": "43192807"
+                }
+            ]
         },
         "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
-        "in_reply_to_status_id": 1244491137756188700,
-        "in_reply_to_status_id_str": "1244491137756188672",
-        "in_reply_to_user_id": 87818409,
-        "in_reply_to_user_id_str": "87818409",
-        "in_reply_to_screen_name": "guardian",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
         "user": {
-            "id": 44196397,
-            "id_str": "44196397",
-            "name": "Elon Musk",
-            "screen_name": "elonmusk",
-            "location": "",
-            "description": "🚀 ☀️ 🚘 🧠 🕳",
-            "url": null,
+            "id": 3438432597,
+            "id_str": "3438432597",
+            "name": "Fanmire",
+            "screen_name": "Fanmire_",
+            "location": "New York, NY",
+            "description": "Strengthening Connections between Fans & Celebrities",
+            "url": "http://t.co/cGOZzxO2dB",
             "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/cGOZzxO2dB",
+                            "expanded_url": "http://www.fanmire.com",
+                            "display_url": "fanmire.com",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
                 "description": {
                     "urls": []
                 }
             },
             "protected": false,
-            "followers_count": 32881871,
-            "friends_count": 82,
-            "listed_count": 54713,
-            "created_at": "Tue Jun 02 20:12:29 +0000 2009",
-            "favourites_count": 5043,
+            "followers_count": 23,
+            "friends_count": 38,
+            "listed_count": 2,
+            "created_at": "Mon Aug 24 21:26:16 +0000 2015",
+            "favourites_count": 5,
             "utc_offset": null,
             "time_zone": null,
             "geo_enabled": false,
-            "verified": true,
-            "statuses_count": 10339,
+            "verified": false,
+            "statuses_count": 121,
             "lang": null,
             "contributors_enabled": false,
             "is_translator": false,
             "is_translation_enabled": false,
-            "profile_background_color": "C0DEED",
+            "profile_background_color": "000000",
             "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
             "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
             "profile_background_tile": false,
-            "profile_image_url": "http://pbs.twimg.com/profile_images/1223183340171415552/XQcxk5Zb_normal.jpg",
-            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1223183340171415552/XQcxk5Zb_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/44196397/1576183471",
-            "profile_link_color": "0084B4",
-            "profile_sidebar_border_color": "C0DEED",
-            "profile_sidebar_fill_color": "DDEEF6",
-            "profile_text_color": "333333",
-            "profile_use_background_image": true,
-            "has_extended_profile": true,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/902533444655185922/p1iUjA9S_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/902533444655185922/p1iUjA9S_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/3438432597/1490068852",
+            "profile_link_color": "1B95E0",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "has_extended_profile": false,
             "default_profile": false,
             "default_profile_image": false,
-            "following": true,
+            "following": false,
             "follow_request_sent": false,
             "notifications": false,
             "translator_type": "none"
@@ -1851,86 +1010,276 @@
         "coordinates": null,
         "place": null,
         "contributors": null,
+        "retweeted_status": {
+            "created_at": "Mon Mar 23 15:37:20 +0000 2020",
+            "id": 1242113205817704400,
+            "id_str": "1242113205817704448",
+            "text": "Puppy love. #NationalPuppyDay https://t.co/EADQJp1Cjm",
+            "truncated": false,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "NationalPuppyDay",
+                        "indices": [
+                            12,
+                            29
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [],
+                "media": [
+                    {
+                        "id": 1242113202843988000,
+                        "id_str": "1242113202843987969",
+                        "indices": [
+                            30,
+                            53
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/ETzfYIJWsAE7cs4.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/ETzfYIJWsAE7cs4.jpg",
+                        "url": "https://t.co/EADQJp1Cjm",
+                        "display_url": "pic.twitter.com/EADQJp1Cjm",
+                        "expanded_url": "https://twitter.com/Pixar/status/1242113205817704448/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 680,
+                                "resize": "fit"
+                            },
+                            "large": {
+                                "w": 1024,
+                                "h": 1024,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 1024,
+                                "h": 1024,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 1242113202843988000,
+                        "id_str": "1242113202843987969",
+                        "indices": [
+                            30,
+                            53
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/ETzfYIJWsAE7cs4.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/ETzfYIJWsAE7cs4.jpg",
+                        "url": "https://t.co/EADQJp1Cjm",
+                        "display_url": "pic.twitter.com/EADQJp1Cjm",
+                        "expanded_url": "https://twitter.com/Pixar/status/1242113205817704448/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 680,
+                                "resize": "fit"
+                            },
+                            "large": {
+                                "w": 1024,
+                                "h": 1024,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 1024,
+                                "h": 1024,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "source": "<a href=\"https://www.sprinklr.com\" rel=\"nofollow\">Sprinklr</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 43192807,
+                "id_str": "43192807",
+                "name": "Pixar",
+                "screen_name": "Pixar",
+                "location": "Emeryville, CA",
+                "description": "The official Twitter for Pixar.",
+                "url": "https://t.co/Njy5SsIvbH",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/Njy5SsIvbH",
+                                "expanded_url": "http://pixar.com",
+                                "display_url": "pixar.com",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 11636801,
+                "friends_count": 149,
+                "listed_count": 25404,
+                "created_at": "Thu May 28 20:47:33 +0000 2009",
+                "favourites_count": 59,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": true,
+                "verified": true,
+                "statuses_count": 8301,
+                "lang": null,
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "FFFFFF",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/884528226630086657/LNt9G3HJ_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/884528226630086657/LNt9G3HJ_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/43192807/1585005808",
+                "profile_link_color": "0084B4",
+                "profile_sidebar_border_color": "FFFFFF",
+                "profile_sidebar_fill_color": "D1C9C9",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 2411,
+            "favorite_count": 11810,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
         "is_quote_status": false,
-        "retweet_count": 311,
-        "favorite_count": 8682,
+        "retweet_count": 2411,
+        "favorite_count": 0,
         "favorited": false,
         "retweeted": false,
+        "possibly_sensitive": false,
         "lang": "en"
     },
     {
-        "created_at": "Sat Mar 28 22:52:02 +0000 2020",
-        "id": 1244034540995137500,
-        "id_str": "1244034540995137536",
-        "text": "@microdentist And many doctors are not treating patients, due to fear of giving or receiving C19",
-        "truncated": false,
+        "created_at": "Sat Mar 14 16:00:10 +0000 2020",
+        "id": 1238857464256266200,
+        "id_str": "1238857464256266242",
+        "text": "There’s nothing wrong with getting ahead! Use your Saturday to do something that you’ve been putting off. \n.\n.\n.… https://t.co/Ws8oN3m1iY",
+        "truncated": true,
         "entities": {
             "hashtags": [],
             "symbols": [],
-            "user_mentions": [
+            "user_mentions": [],
+            "urls": [
                 {
-                    "screen_name": "microdentist",
-                    "name": "microdentist",
-                    "id": 547633058,
-                    "id_str": "547633058",
+                    "url": "https://t.co/Ws8oN3m1iY",
+                    "expanded_url": "https://twitter.com/i/web/status/1238857464256266242",
+                    "display_url": "twitter.com/i/web/status/1…",
                     "indices": [
-                        0,
-                        13
+                        114,
+                        137
                     ]
                 }
-            ],
-            "urls": []
+            ]
         },
-        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
-        "in_reply_to_status_id": 1243958111020474400,
-        "in_reply_to_status_id_str": "1243958111020474368",
-        "in_reply_to_user_id": 547633058,
-        "in_reply_to_user_id_str": "547633058",
-        "in_reply_to_screen_name": "microdentist",
+        "source": "<a href=\"https://app.agorapulse.com\" rel=\"nofollow\">AgoraPulse Manager</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
         "user": {
-            "id": 44196397,
-            "id_str": "44196397",
-            "name": "Elon Musk",
-            "screen_name": "elonmusk",
-            "location": "",
-            "description": "🚀 ☀️ 🚘 🧠 🕳",
-            "url": null,
+            "id": 3438432597,
+            "id_str": "3438432597",
+            "name": "Fanmire",
+            "screen_name": "Fanmire_",
+            "location": "New York, NY",
+            "description": "Strengthening Connections between Fans & Celebrities",
+            "url": "http://t.co/cGOZzxO2dB",
             "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/cGOZzxO2dB",
+                            "expanded_url": "http://www.fanmire.com",
+                            "display_url": "fanmire.com",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
                 "description": {
                     "urls": []
                 }
             },
             "protected": false,
-            "followers_count": 32881871,
-            "friends_count": 82,
-            "listed_count": 54713,
-            "created_at": "Tue Jun 02 20:12:29 +0000 2009",
-            "favourites_count": 5043,
+            "followers_count": 23,
+            "friends_count": 38,
+            "listed_count": 2,
+            "created_at": "Mon Aug 24 21:26:16 +0000 2015",
+            "favourites_count": 5,
             "utc_offset": null,
             "time_zone": null,
             "geo_enabled": false,
-            "verified": true,
-            "statuses_count": 10339,
+            "verified": false,
+            "statuses_count": 121,
             "lang": null,
             "contributors_enabled": false,
             "is_translator": false,
             "is_translation_enabled": false,
-            "profile_background_color": "C0DEED",
+            "profile_background_color": "000000",
             "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
             "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
             "profile_background_tile": false,
-            "profile_image_url": "http://pbs.twimg.com/profile_images/1223183340171415552/XQcxk5Zb_normal.jpg",
-            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1223183340171415552/XQcxk5Zb_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/44196397/1576183471",
-            "profile_link_color": "0084B4",
-            "profile_sidebar_border_color": "C0DEED",
-            "profile_sidebar_fill_color": "DDEEF6",
-            "profile_text_color": "333333",
-            "profile_use_background_image": true,
-            "has_extended_profile": true,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/902533444655185922/p1iUjA9S_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/902533444655185922/p1iUjA9S_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/3438432597/1490068852",
+            "profile_link_color": "1B95E0",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "has_extended_profile": false,
             "default_profile": false,
             "default_profile_image": false,
-            "following": true,
+            "following": false,
             "follow_request_sent": false,
             "notifications": false,
             "translator_type": "none"
@@ -1940,95 +1289,214 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 322,
-        "favorite_count": 9297,
+        "retweet_count": 0,
+        "favorite_count": 0,
         "favorited": false,
         "retweeted": false,
+        "possibly_sensitive": false,
         "lang": "en"
     },
     {
-        "created_at": "Sat Mar 28 05:14:23 +0000 2020",
-        "id": 1243768376947810300,
-        "id_str": "1243768376947810304",
-        "text": "@n2179_twit @AbbottNews This sounds great",
-        "truncated": false,
+        "created_at": "Thu Mar 12 17:00:22 +0000 2020",
+        "id": 1238147835620720600,
+        "id_str": "1238147835620720643",
+        "text": "As we celebrate Women's History Month 💪 we'd like to remember Ida B. Wells, an African American journalist and acti… https://t.co/YmM6zAfSsO",
+        "truncated": true,
         "entities": {
             "hashtags": [],
             "symbols": [],
-            "user_mentions": [
+            "user_mentions": [],
+            "urls": [
                 {
-                    "screen_name": "n2179_twit",
-                    "name": "Mark",
-                    "id": 3252382232,
-                    "id_str": "3252382232",
+                    "url": "https://t.co/YmM6zAfSsO",
+                    "expanded_url": "https://twitter.com/i/web/status/1238147835620720643",
+                    "display_url": "twitter.com/i/web/status/1…",
                     "indices": [
-                        0,
-                        11
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"https://app.agorapulse.com\" rel=\"nofollow\">AgoraPulse Manager</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 3438432597,
+            "id_str": "3438432597",
+            "name": "Fanmire",
+            "screen_name": "Fanmire_",
+            "location": "New York, NY",
+            "description": "Strengthening Connections between Fans & Celebrities",
+            "url": "http://t.co/cGOZzxO2dB",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/cGOZzxO2dB",
+                            "expanded_url": "http://www.fanmire.com",
+                            "display_url": "fanmire.com",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 23,
+            "friends_count": 38,
+            "listed_count": 2,
+            "created_at": "Mon Aug 24 21:26:16 +0000 2015",
+            "favourites_count": 5,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 121,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "000000",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/902533444655185922/p1iUjA9S_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/902533444655185922/p1iUjA9S_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/3438432597/1490068852",
+            "profile_link_color": "1B95E0",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 1,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Thu Mar 12 16:30:11 +0000 2020",
+        "id": 1238140239132180500,
+        "id_str": "1238140239132180489",
+        "text": "Wan't new amazing experiences that you'll never forget? So do we! Let's get this party started. 🎉\n\n#fanmire #fandom… https://t.co/da93w9feph",
+        "truncated": true,
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "fanmire",
+                    "indices": [
+                        99,
+                        107
                     ]
                 },
                 {
-                    "screen_name": "AbbottNews",
-                    "name": "Abbott",
-                    "id": 360054369,
-                    "id_str": "360054369",
+                    "text": "fandom",
                     "indices": [
-                        12,
-                        23
+                        108,
+                        115
                     ]
                 }
             ],
-            "urls": []
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/da93w9feph",
+                    "expanded_url": "https://twitter.com/i/web/status/1238140239132180489",
+                    "display_url": "twitter.com/i/web/status/1…",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
         },
-        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
-        "in_reply_to_status_id": 1243767985619132400,
-        "in_reply_to_status_id_str": "1243767985619132417",
-        "in_reply_to_user_id": 3252382232,
-        "in_reply_to_user_id_str": "3252382232",
-        "in_reply_to_screen_name": "n2179_twit",
+        "source": "<a href=\"https://app.agorapulse.com\" rel=\"nofollow\">AgoraPulse Manager</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
         "user": {
-            "id": 44196397,
-            "id_str": "44196397",
-            "name": "Elon Musk",
-            "screen_name": "elonmusk",
-            "location": "",
-            "description": "🚀 ☀️ 🚘 🧠 🕳",
-            "url": null,
+            "id": 3438432597,
+            "id_str": "3438432597",
+            "name": "Fanmire",
+            "screen_name": "Fanmire_",
+            "location": "New York, NY",
+            "description": "Strengthening Connections between Fans & Celebrities",
+            "url": "http://t.co/cGOZzxO2dB",
             "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/cGOZzxO2dB",
+                            "expanded_url": "http://www.fanmire.com",
+                            "display_url": "fanmire.com",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
                 "description": {
                     "urls": []
                 }
             },
             "protected": false,
-            "followers_count": 32881871,
-            "friends_count": 82,
-            "listed_count": 54713,
-            "created_at": "Tue Jun 02 20:12:29 +0000 2009",
-            "favourites_count": 5043,
+            "followers_count": 23,
+            "friends_count": 38,
+            "listed_count": 2,
+            "created_at": "Mon Aug 24 21:26:16 +0000 2015",
+            "favourites_count": 5,
             "utc_offset": null,
             "time_zone": null,
             "geo_enabled": false,
-            "verified": true,
-            "statuses_count": 10339,
+            "verified": false,
+            "statuses_count": 121,
             "lang": null,
             "contributors_enabled": false,
             "is_translator": false,
             "is_translation_enabled": false,
-            "profile_background_color": "C0DEED",
+            "profile_background_color": "000000",
             "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
             "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
             "profile_background_tile": false,
-            "profile_image_url": "http://pbs.twimg.com/profile_images/1223183340171415552/XQcxk5Zb_normal.jpg",
-            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1223183340171415552/XQcxk5Zb_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/44196397/1576183471",
-            "profile_link_color": "0084B4",
-            "profile_sidebar_border_color": "C0DEED",
-            "profile_sidebar_fill_color": "DDEEF6",
-            "profile_text_color": "333333",
-            "profile_use_background_image": true,
-            "has_extended_profile": true,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/902533444655185922/p1iUjA9S_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/902533444655185922/p1iUjA9S_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/3438432597/1490068852",
+            "profile_link_color": "1B95E0",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "has_extended_profile": false,
             "default_profile": false,
             "default_profile_image": false,
-            "following": true,
+            "following": false,
             "follow_request_sent": false,
             "notifications": false,
             "translator_type": "none"
@@ -2038,85 +1506,98 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 138,
-        "favorite_count": 4109,
+        "retweet_count": 0,
+        "favorite_count": 0,
         "favorited": false,
         "retweeted": false,
+        "possibly_sensitive": false,
         "lang": "en"
     },
     {
-        "created_at": "Sat Mar 28 05:11:27 +0000 2020",
-        "id": 1243767635566907400,
-        "id_str": "1243767635566907393",
-        "text": "@AbbottNews Can you do a fast antibody test?",
-        "truncated": false,
+        "created_at": "Wed Mar 11 20:40:07 +0000 2020",
+        "id": 1237840749321805800,
+        "id_str": "1237840749321805824",
+        "text": "I'm a huge fan of all things LOVE 💓. As they say, love makes the 🌎 go round. Love drives life, family, spirituality… https://t.co/ccLuNZzOTd",
+        "truncated": true,
         "entities": {
             "hashtags": [],
             "symbols": [],
-            "user_mentions": [
+            "user_mentions": [],
+            "urls": [
                 {
-                    "screen_name": "AbbottNews",
-                    "name": "Abbott",
-                    "id": 360054369,
-                    "id_str": "360054369",
+                    "url": "https://t.co/ccLuNZzOTd",
+                    "expanded_url": "https://twitter.com/i/web/status/1237840749321805824",
+                    "display_url": "twitter.com/i/web/status/1…",
                     "indices": [
-                        0,
-                        11
+                        117,
+                        140
                     ]
                 }
-            ],
-            "urls": []
+            ]
         },
-        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
-        "in_reply_to_status_id": 1243680163054915600,
-        "in_reply_to_status_id_str": "1243680163054915584",
-        "in_reply_to_user_id": 360054369,
-        "in_reply_to_user_id_str": "360054369",
-        "in_reply_to_screen_name": "AbbottNews",
+        "source": "<a href=\"https://app.agorapulse.com\" rel=\"nofollow\">AgoraPulse Manager</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
         "user": {
-            "id": 44196397,
-            "id_str": "44196397",
-            "name": "Elon Musk",
-            "screen_name": "elonmusk",
-            "location": "",
-            "description": "🚀 ☀️ 🚘 🧠 🕳",
-            "url": null,
+            "id": 3438432597,
+            "id_str": "3438432597",
+            "name": "Fanmire",
+            "screen_name": "Fanmire_",
+            "location": "New York, NY",
+            "description": "Strengthening Connections between Fans & Celebrities",
+            "url": "http://t.co/cGOZzxO2dB",
             "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/cGOZzxO2dB",
+                            "expanded_url": "http://www.fanmire.com",
+                            "display_url": "fanmire.com",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
                 "description": {
                     "urls": []
                 }
             },
             "protected": false,
-            "followers_count": 32881871,
-            "friends_count": 82,
-            "listed_count": 54713,
-            "created_at": "Tue Jun 02 20:12:29 +0000 2009",
-            "favourites_count": 5043,
+            "followers_count": 23,
+            "friends_count": 38,
+            "listed_count": 2,
+            "created_at": "Mon Aug 24 21:26:16 +0000 2015",
+            "favourites_count": 5,
             "utc_offset": null,
             "time_zone": null,
             "geo_enabled": false,
-            "verified": true,
-            "statuses_count": 10339,
+            "verified": false,
+            "statuses_count": 121,
             "lang": null,
             "contributors_enabled": false,
             "is_translator": false,
             "is_translation_enabled": false,
-            "profile_background_color": "C0DEED",
+            "profile_background_color": "000000",
             "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
             "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
             "profile_background_tile": false,
-            "profile_image_url": "http://pbs.twimg.com/profile_images/1223183340171415552/XQcxk5Zb_normal.jpg",
-            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1223183340171415552/XQcxk5Zb_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/44196397/1576183471",
-            "profile_link_color": "0084B4",
-            "profile_sidebar_border_color": "C0DEED",
-            "profile_sidebar_fill_color": "DDEEF6",
-            "profile_text_color": "333333",
-            "profile_use_background_image": true,
-            "has_extended_profile": true,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/902533444655185922/p1iUjA9S_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/902533444655185922/p1iUjA9S_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/3438432597/1490068852",
+            "profile_link_color": "1B95E0",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "has_extended_profile": false,
             "default_profile": false,
             "default_profile_image": false,
-            "following": true,
+            "following": false,
             "follow_request_sent": false,
             "notifications": false,
             "translator_type": "none"
@@ -2126,85 +1607,473 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 916,
-        "favorite_count": 12274,
+        "retweet_count": 0,
+        "favorite_count": 0,
         "favorited": false,
         "retweeted": false,
+        "possibly_sensitive": false,
         "lang": "en"
     },
     {
-        "created_at": "Fri Mar 27 22:54:50 +0000 2020",
-        "id": 1243672856891981800,
-        "id_str": "1243672856891981824",
-        "text": "@ScottSaorAlba Yes",
+        "created_at": "Mon Mar 09 16:14:52 +0000 2020",
+        "id": 1237049220751818800,
+        "id_str": "1237049220751818755",
+        "text": "RT @Chris__Gio: This is a day I can 100% get behind. Happy #NationalNappingDay everyone. https://t.co/BymqglhKmd",
         "truncated": false,
         "entities": {
-            "hashtags": [],
-            "symbols": [],
-            "user_mentions": [
+            "hashtags": [
                 {
-                    "screen_name": "ScottSaorAlba",
-                    "name": "Saòr Alba",
-                    "id": 3134326828,
-                    "id_str": "3134326828",
+                    "text": "NationalNappingDay",
                     "indices": [
-                        0,
-                        14
+                        59,
+                        78
                     ]
                 }
             ],
-            "urls": []
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [],
+            "media": [
+                {
+                    "id": 1236965302971388000,
+                    "id_str": "1236965302971387905",
+                    "indices": [
+                        89,
+                        112
+                    ],
+                    "media_url": "http://pbs.twimg.com/tweet_video_thumb/ESqVY6sX0AExlj3.jpg",
+                    "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/ESqVY6sX0AExlj3.jpg",
+                    "url": "https://t.co/BymqglhKmd",
+                    "display_url": "pic.twitter.com/BymqglhKmd",
+                    "expanded_url": "https://twitter.com/Chris__Gio/status/1236965314757300226/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "medium": {
+                            "w": 340,
+                            "h": 340,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "large": {
+                            "w": 340,
+                            "h": 340,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 340,
+                            "h": 340,
+                            "resize": "fit"
+                        }
+                    },
+                    "source_status_id": 1236965314757300200,
+                    "source_status_id_str": "1236965314757300226",
+                    "source_user_id": 709573058,
+                    "source_user_id_str": "709573058"
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 1236965302971388000,
+                    "id_str": "1236965302971387905",
+                    "indices": [
+                        89,
+                        112
+                    ],
+                    "media_url": "http://pbs.twimg.com/tweet_video_thumb/ESqVY6sX0AExlj3.jpg",
+                    "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/ESqVY6sX0AExlj3.jpg",
+                    "url": "https://t.co/BymqglhKmd",
+                    "display_url": "pic.twitter.com/BymqglhKmd",
+                    "expanded_url": "https://twitter.com/Chris__Gio/status/1236965314757300226/photo/1",
+                    "type": "animated_gif",
+                    "sizes": {
+                        "medium": {
+                            "w": 340,
+                            "h": 340,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "large": {
+                            "w": 340,
+                            "h": 340,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 340,
+                            "h": 340,
+                            "resize": "fit"
+                        }
+                    },
+                    "source_status_id": 1236965314757300200,
+                    "source_status_id_str": "1236965314757300226",
+                    "source_user_id": 709573058,
+                    "source_user_id_str": "709573058",
+                    "video_info": {
+                        "aspect_ratio": [
+                            1,
+                            1
+                        ],
+                        "variants": [
+                            {
+                                "bitrate": 0,
+                                "content_type": "video/mp4",
+                                "url": "https://video.twimg.com/tweet_video/ESqVY6sX0AExlj3.mp4"
+                            }
+                        ]
+                    }
+                }
+            ]
         },
         "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
-        "in_reply_to_status_id": 1243672508131414000,
-        "in_reply_to_status_id_str": "1243672508131414019",
-        "in_reply_to_user_id": 3134326828,
-        "in_reply_to_user_id_str": "3134326828",
-        "in_reply_to_screen_name": "ScottSaorAlba",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
         "user": {
-            "id": 44196397,
-            "id_str": "44196397",
-            "name": "Elon Musk",
-            "screen_name": "elonmusk",
-            "location": "",
-            "description": "🚀 ☀️ 🚘 🧠 🕳",
-            "url": null,
+            "id": 3438432597,
+            "id_str": "3438432597",
+            "name": "Fanmire",
+            "screen_name": "Fanmire_",
+            "location": "New York, NY",
+            "description": "Strengthening Connections between Fans & Celebrities",
+            "url": "http://t.co/cGOZzxO2dB",
             "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/cGOZzxO2dB",
+                            "expanded_url": "http://www.fanmire.com",
+                            "display_url": "fanmire.com",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
                 "description": {
                     "urls": []
                 }
             },
             "protected": false,
-            "followers_count": 32881871,
-            "friends_count": 82,
-            "listed_count": 54713,
-            "created_at": "Tue Jun 02 20:12:29 +0000 2009",
-            "favourites_count": 5043,
+            "followers_count": 23,
+            "friends_count": 38,
+            "listed_count": 2,
+            "created_at": "Mon Aug 24 21:26:16 +0000 2015",
+            "favourites_count": 5,
             "utc_offset": null,
             "time_zone": null,
             "geo_enabled": false,
-            "verified": true,
-            "statuses_count": 10339,
+            "verified": false,
+            "statuses_count": 121,
             "lang": null,
             "contributors_enabled": false,
             "is_translator": false,
             "is_translation_enabled": false,
-            "profile_background_color": "C0DEED",
+            "profile_background_color": "000000",
             "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
             "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
             "profile_background_tile": false,
-            "profile_image_url": "http://pbs.twimg.com/profile_images/1223183340171415552/XQcxk5Zb_normal.jpg",
-            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1223183340171415552/XQcxk5Zb_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/44196397/1576183471",
-            "profile_link_color": "0084B4",
-            "profile_sidebar_border_color": "C0DEED",
-            "profile_sidebar_fill_color": "DDEEF6",
-            "profile_text_color": "333333",
-            "profile_use_background_image": true,
-            "has_extended_profile": true,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/902533444655185922/p1iUjA9S_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/902533444655185922/p1iUjA9S_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/3438432597/1490068852",
+            "profile_link_color": "1B95E0",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "has_extended_profile": false,
             "default_profile": false,
             "default_profile_image": false,
-            "following": true,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweeted_status": {
+            "created_at": "Mon Mar 09 10:41:27 +0000 2020",
+            "id": 1236965314757300200,
+            "id_str": "1236965314757300226",
+            "text": "This is a day I can 100% get behind. Happy #NationalNappingDay everyone. https://t.co/BymqglhKmd",
+            "truncated": false,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "NationalNappingDay",
+                        "indices": [
+                            43,
+                            62
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [],
+                "media": [
+                    {
+                        "id": 1236965302971388000,
+                        "id_str": "1236965302971387905",
+                        "indices": [
+                            73,
+                            96
+                        ],
+                        "media_url": "http://pbs.twimg.com/tweet_video_thumb/ESqVY6sX0AExlj3.jpg",
+                        "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/ESqVY6sX0AExlj3.jpg",
+                        "url": "https://t.co/BymqglhKmd",
+                        "display_url": "pic.twitter.com/BymqglhKmd",
+                        "expanded_url": "https://twitter.com/Chris__Gio/status/1236965314757300226/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "medium": {
+                                "w": 340,
+                                "h": 340,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "large": {
+                                "w": 340,
+                                "h": 340,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 340,
+                                "h": 340,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 1236965302971388000,
+                        "id_str": "1236965302971387905",
+                        "indices": [
+                            73,
+                            96
+                        ],
+                        "media_url": "http://pbs.twimg.com/tweet_video_thumb/ESqVY6sX0AExlj3.jpg",
+                        "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/ESqVY6sX0AExlj3.jpg",
+                        "url": "https://t.co/BymqglhKmd",
+                        "display_url": "pic.twitter.com/BymqglhKmd",
+                        "expanded_url": "https://twitter.com/Chris__Gio/status/1236965314757300226/photo/1",
+                        "type": "animated_gif",
+                        "sizes": {
+                            "medium": {
+                                "w": 340,
+                                "h": 340,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "large": {
+                                "w": 340,
+                                "h": 340,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 340,
+                                "h": 340,
+                                "resize": "fit"
+                            }
+                        },
+                        "video_info": {
+                            "aspect_ratio": [
+                                1,
+                                1
+                            ],
+                            "variants": [
+                                {
+                                    "bitrate": 0,
+                                    "content_type": "video/mp4",
+                                    "url": "https://video.twimg.com/tweet_video/ESqVY6sX0AExlj3.mp4"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 709573058,
+                "id_str": "709573058",
+                "name": "Christian",
+                "screen_name": "ItsDatDudeCG",
+                "location": "In my own bubble",
+                "description": "Energy Conservationist / Slytherin / Millennial.",
+                "url": null,
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 115,
+                "friends_count": 81,
+                "listed_count": 5,
+                "created_at": "Sat Jul 21 21:05:24 +0000 2012",
+                "favourites_count": 182,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": false,
+                "verified": false,
+                "statuses_count": 11364,
+                "lang": null,
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/1231004908029140992/Srk5z5_5_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1231004908029140992/Srk5z5_5_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/709573058/1582168894",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": true,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 763,
+            "favorite_count": 2081,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        "is_quote_status": false,
+        "retweet_count": 763,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Mon Mar 09 15:39:08 +0000 2020",
+        "id": 1237040227757285400,
+        "id_str": "1237040227757285376",
+        "text": "Today on National Napping Day, we'd like to remind you that \"Choosing to disengage from The Hustle or slow down doe… https://t.co/crllgnVY7D",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/crllgnVY7D",
+                    "expanded_url": "https://twitter.com/i/web/status/1237040227757285376",
+                    "display_url": "twitter.com/i/web/status/1…",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"https://app.agorapulse.com\" rel=\"nofollow\">AgoraPulse Manager</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 3438432597,
+            "id_str": "3438432597",
+            "name": "Fanmire",
+            "screen_name": "Fanmire_",
+            "location": "New York, NY",
+            "description": "Strengthening Connections between Fans & Celebrities",
+            "url": "http://t.co/cGOZzxO2dB",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/cGOZzxO2dB",
+                            "expanded_url": "http://www.fanmire.com",
+                            "display_url": "fanmire.com",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 23,
+            "friends_count": 38,
+            "listed_count": 2,
+            "created_at": "Mon Aug 24 21:26:16 +0000 2015",
+            "favourites_count": 5,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 121,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "000000",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/902533444655185922/p1iUjA9S_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/902533444655185922/p1iUjA9S_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/3438432597/1490068852",
+            "profile_link_color": "1B95E0",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
             "follow_request_sent": false,
             "notifications": false,
             "translator_type": "none"
@@ -2214,10 +2083,599 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 103,
-        "favorite_count": 3509,
+        "retweet_count": 0,
+        "favorite_count": 0,
         "favorited": false,
         "retweeted": false,
-        "lang": "und"
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Fri Mar 06 17:45:06 +0000 2020",
+        "id": 1235984768547815400,
+        "id_str": "1235984768547815424",
+        "text": "It's International Day of Unplugging! 🔌Will you be unplugging today?  Take care of yourself!  😘 #selfcare #unplug https://t.co/oNBdo4HcjR",
+        "truncated": false,
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "selfcare",
+                    "indices": [
+                        96,
+                        105
+                    ]
+                },
+                {
+                    "text": "unplug",
+                    "indices": [
+                        106,
+                        113
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [],
+            "media": [
+                {
+                    "id": 1235984766891065300,
+                    "id_str": "1235984766891065347",
+                    "indices": [
+                        114,
+                        137
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/EScZmNJWAAMRXFu.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/EScZmNJWAAMRXFu.jpg",
+                    "url": "https://t.co/oNBdo4HcjR",
+                    "display_url": "pic.twitter.com/oNBdo4HcjR",
+                    "expanded_url": "https://twitter.com/Fanmire_/status/1235984768547815424/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "small": {
+                            "w": 680,
+                            "h": 680,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 1080,
+                            "h": 1080,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 1080,
+                            "h": 1080,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 1235984766891065300,
+                    "id_str": "1235984766891065347",
+                    "indices": [
+                        114,
+                        137
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/EScZmNJWAAMRXFu.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/EScZmNJWAAMRXFu.jpg",
+                    "url": "https://t.co/oNBdo4HcjR",
+                    "display_url": "pic.twitter.com/oNBdo4HcjR",
+                    "expanded_url": "https://twitter.com/Fanmire_/status/1235984768547815424/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "small": {
+                            "w": 680,
+                            "h": 680,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 1080,
+                            "h": 1080,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 1080,
+                            "h": 1080,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "source": "<a href=\"https://www.hootsuite.com\" rel=\"nofollow\">Hootsuite Inc.</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 3438432597,
+            "id_str": "3438432597",
+            "name": "Fanmire",
+            "screen_name": "Fanmire_",
+            "location": "New York, NY",
+            "description": "Strengthening Connections between Fans & Celebrities",
+            "url": "http://t.co/cGOZzxO2dB",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/cGOZzxO2dB",
+                            "expanded_url": "http://www.fanmire.com",
+                            "display_url": "fanmire.com",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 23,
+            "friends_count": 38,
+            "listed_count": 2,
+            "created_at": "Mon Aug 24 21:26:16 +0000 2015",
+            "favourites_count": 5,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 121,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "000000",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/902533444655185922/p1iUjA9S_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/902533444655185922/p1iUjA9S_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/3438432597/1490068852",
+            "profile_link_color": "1B95E0",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Thu Mar 05 16:45:07 +0000 2020",
+        "id": 1235607284073599000,
+        "id_str": "1235607284073598977",
+        "text": "The year 2020 marks the 100th anniversary of the passage of the 19th Amendment. ✅ Today, on International Women's H… https://t.co/pzd3S97B4f",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/pzd3S97B4f",
+                    "expanded_url": "https://twitter.com/i/web/status/1235607284073598977",
+                    "display_url": "twitter.com/i/web/status/1…",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"https://www.hootsuite.com\" rel=\"nofollow\">Hootsuite Inc.</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 3438432597,
+            "id_str": "3438432597",
+            "name": "Fanmire",
+            "screen_name": "Fanmire_",
+            "location": "New York, NY",
+            "description": "Strengthening Connections between Fans & Celebrities",
+            "url": "http://t.co/cGOZzxO2dB",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/cGOZzxO2dB",
+                            "expanded_url": "http://www.fanmire.com",
+                            "display_url": "fanmire.com",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 23,
+            "friends_count": 38,
+            "listed_count": 2,
+            "created_at": "Mon Aug 24 21:26:16 +0000 2015",
+            "favourites_count": 5,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 121,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "000000",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/902533444655185922/p1iUjA9S_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/902533444655185922/p1iUjA9S_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/3438432597/1490068852",
+            "profile_link_color": "1B95E0",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Wed Mar 04 17:30:20 +0000 2020",
+        "id": 1235256274650108000,
+        "id_str": "1235256274650107905",
+        "text": "Fanmire is working hard to bring you the ultimate experience. Stay tuned in for updates on our platform and upcomin… https://t.co/hIoR6mstbs",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/hIoR6mstbs",
+                    "expanded_url": "https://twitter.com/i/web/status/1235256274650107905",
+                    "display_url": "twitter.com/i/web/status/1…",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"https://app.agorapulse.com\" rel=\"nofollow\">AgoraPulse Manager</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 3438432597,
+            "id_str": "3438432597",
+            "name": "Fanmire",
+            "screen_name": "Fanmire_",
+            "location": "New York, NY",
+            "description": "Strengthening Connections between Fans & Celebrities",
+            "url": "http://t.co/cGOZzxO2dB",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/cGOZzxO2dB",
+                            "expanded_url": "http://www.fanmire.com",
+                            "display_url": "fanmire.com",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 23,
+            "friends_count": 38,
+            "listed_count": 2,
+            "created_at": "Mon Aug 24 21:26:16 +0000 2015",
+            "favourites_count": 5,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 121,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "000000",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/902533444655185922/p1iUjA9S_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/902533444655185922/p1iUjA9S_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/3438432597/1490068852",
+            "profile_link_color": "1B95E0",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Tue Mar 03 18:45:09 +0000 2020",
+        "id": 1234912713660338200,
+        "id_str": "1234912713660338179",
+        "text": "\" It can amplify my emotions, change my mood, speak for me when I don't have the words to express how I'm feeling,… https://t.co/O6YFJlSLQ6",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/O6YFJlSLQ6",
+                    "expanded_url": "https://twitter.com/i/web/status/1234912713660338179",
+                    "display_url": "twitter.com/i/web/status/1…",
+                    "indices": [
+                        116,
+                        139
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"https://www.hootsuite.com\" rel=\"nofollow\">Hootsuite Inc.</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 3438432597,
+            "id_str": "3438432597",
+            "name": "Fanmire",
+            "screen_name": "Fanmire_",
+            "location": "New York, NY",
+            "description": "Strengthening Connections between Fans & Celebrities",
+            "url": "http://t.co/cGOZzxO2dB",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/cGOZzxO2dB",
+                            "expanded_url": "http://www.fanmire.com",
+                            "display_url": "fanmire.com",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 23,
+            "friends_count": 38,
+            "listed_count": 2,
+            "created_at": "Mon Aug 24 21:26:16 +0000 2015",
+            "favourites_count": 5,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 121,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "000000",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/902533444655185922/p1iUjA9S_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/902533444655185922/p1iUjA9S_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/3438432597/1490068852",
+            "profile_link_color": "1B95E0",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Sat Feb 29 19:00:45 +0000 2020",
+        "id": 1233829476527673300,
+        "id_str": "1233829476527673345",
+        "text": "Jamel Anderson, Founder of FANmire is a Harlem native whom has a passion for connecting people and build brighter f… https://t.co/5YuOHg6vgo",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/5YuOHg6vgo",
+                    "expanded_url": "https://twitter.com/i/web/status/1233829476527673345",
+                    "display_url": "twitter.com/i/web/status/1…",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"https://www.hootsuite.com\" rel=\"nofollow\">Hootsuite Inc.</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 3438432597,
+            "id_str": "3438432597",
+            "name": "Fanmire",
+            "screen_name": "Fanmire_",
+            "location": "New York, NY",
+            "description": "Strengthening Connections between Fans & Celebrities",
+            "url": "http://t.co/cGOZzxO2dB",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/cGOZzxO2dB",
+                            "expanded_url": "http://www.fanmire.com",
+                            "display_url": "fanmire.com",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 23,
+            "friends_count": 38,
+            "listed_count": 2,
+            "created_at": "Mon Aug 24 21:26:16 +0000 2015",
+            "favourites_count": 5,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 121,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "000000",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/902533444655185922/p1iUjA9S_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/902533444655185922/p1iUjA9S_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/3438432597/1490068852",
+            "profile_link_color": "1B95E0",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
     }
 ]

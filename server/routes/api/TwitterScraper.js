@@ -5,6 +5,7 @@ require('dotenv').config({
 });
 
 const fs = require('fs');
+
 var Twitter = require('twitter');
 
 var client = new Twitter({
@@ -14,11 +15,18 @@ var client = new Twitter({
   access_token_secret: process.env.TWITTER_ACCESS_TOKEN_SECRET
 });
 
-var params = {
-  screen_name: 'elonmusk'
-};
-client.get('statuses/user_timeline', params, function(error, tweets, response) {
-  if (!error) {
-    fs.writeFileSync("./data/tweets.json", JSON.stringify(tweets, null, 4));
+class TwitterScraper {
+  scrape(screen_name) {
+    client.get('statuses/user_timeline', {
+      screen_name: screen_name
+    }, function(error, tweets, response) {
+      if (!error) {
+        fs.writeFileSync("server/routes/api/data/tweets.json", JSON.stringify(tweets, null, 4));
+        // return tweets;
+      }
+    });
   }
-});
+
+}
+
+module.exports = TwitterScraper

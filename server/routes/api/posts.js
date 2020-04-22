@@ -4,20 +4,48 @@ require('dotenv').config({
   path: path.resolve(__dirname, '../../../.env')
 });
 
-const express = require("express");
-const mongodb = require("mongodb");
-
+/* Express Server */
+const express = require('express');
 const router = express.Router();
 
-// Get Posts
-router.get('/', async (req, res) => {
+/* MongoDB Database*/
+const mongodb = require('mongodb');
+
+/* File System */
+var fs = require('fs');
+
+/* Social Media Scrapers */
+const TwitterScraper = require('./TwitterScraper');
+const twitter_scraper = new TwitterScraper;
+
+// Get and Add Posts
+router.get('/:celebrity', async (req, res) => {
+  const {
+    params: {
+      celebrity
+    }
+  } = req;
+  // 1. Lookup account details for the given fanmireId
+  // which has the their twitter / facebook IDs
+  console.log('get posts for', celebrity);
+
+  // 2. Update posts and send
   const posts = await loadPostsCollection();
+
+  // Add Tweets
+  twitter_scraper.scrape("Fanmire_");
+  var tweets_json = fs.readFile('./data/tweets.json', 'utf8', function(err, data) {
+    console.log(JSON.stringify(data));
+
+  });
+
   res.send(await posts.find({}).toArray());
 });
 
 // Add posts
-router.post('/', async (req, res) => {
+router.post('/:celebrity', async (req, res) => {
   const posts = await loadPostsCollection();
+
   await posts.insertOne({
     text: req.body.text,
     createdAt: new Date()
