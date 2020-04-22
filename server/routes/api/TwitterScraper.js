@@ -21,8 +21,11 @@ class TwitterScraper {
       screen_name: screen_name
     }, function(error, tweets, response) {
       if (!error) {
-        fs.writeFileSync("server/routes/api/data/tweets.json", JSON.stringify(tweets, null, 4));
-        // return tweets;
+        // fs.writeFileSync("server/routes/api/data/tweets.json", JSON.stringify(tweets, null, 4));
+        // fs.writeFileSync("./data/tweets.json", JSON.stringify(tweets, null, 4));
+
+        // console.log(tweets);
+        return tweets;
       }
     });
   }

@@ -1,23 +1,20 @@
 <template>
 <div id="app">
     <img alt="Fanmire logo" src="./assets/Fanmire_Icon_Horizontal_Red_400.png">
-    <!--PostComponent /> -->
     <MainFeedComponent />
-    <FacebookLoginComponent />
+    <!-- <FacebookLoginComponent /> -->
 </div>
 </template>
 
 <script>
-//import PostComponent from './components/PostComponent.vue';
 import MainFeedComponent from './components/MainFeedComponent.vue';
-import FacebookLoginComponent from './components/FacebookLoginComponent';
+//import FacebookLoginComponent from './components/FacebookLoginComponent';
 
 export default {
     name: 'app',
     components: {
-        //PostComponent,
-        MainFeedComponent,
-        FacebookLoginComponent
+        MainFeedComponent
+        //FacebookLoginComponent
     }
 };
 
