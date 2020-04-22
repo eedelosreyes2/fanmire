@@ -65,7 +65,7 @@
           <i>{{email}}</i>
         </div>
         <div class="list-item">
-          <i>{{personalID}}</i>
+          <i>{{posts}}</i>
         </div>
       </div>
     </div>
@@ -76,25 +76,28 @@
   import facebookLogin from 'facebook-login-vuejs'
 
   export default {
-    name: 'FacebookLoginComponent.vue';
+    name: 'FacebookLoginComponent.vue',
     data() {
       return {
         isConnected: false,
         name: '',
         email: '',
-        personalID: '',
         picture: '',
+        posts: '',
         FB: undefined
         }
     },
+    components: {
+      facebookLogin
+    },
     methods: {
     getUserData() {
-      this.FB.api('/me', 'GET', { fields: 'id,name,email,picture' },
+      this.FB.api('/me', 'GET', { fields: 'name, email, picture, posts' },
         user => {
-          this.personalID = user.id;
           this.email = user.email;
           this.name = user.name;
           this.picture = user.picture.data.url;
+          this.posts = user.posts.data;
         }
       )
     },
