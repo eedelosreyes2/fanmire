@@ -16,20 +16,25 @@ var client = new Twitter({
 });
 
 class TwitterScraper {
-  scrape(screen_name) {
-    client.get('statuses/user_timeline', {
-      screen_name: screen_name
-    }, function(error, tweets, response) {
-      if (!error) {
-        // fs.writeFileSync("server/routes/api/data/tweets.json", JSON.stringify(tweets, null, 4));
-        // fs.writeFileSync("./data/tweets.json", JSON.stringify(tweets, null, 4));
-
-        // console.log(tweets);
-        return tweets;
-      }
+  async scrape(screen_name) {
+    return await client.get('statuses/user_timeline', {
+      screen_name
     });
-  }
 
+    /* If return await doesn't work, then wrap in Promise */
+    // return new Promise((resolve, reject) => {
+    //   client.get('statuses/user_timeline', {
+    //     screen_name: screen_name
+    //   }, function(error, tweets, response) {
+    //     if (!error) {
+    //       resolve(tweets);
+    //     } else {
+    //       reject(error);
+    //     }
+    //   });
+    // })
+
+  }
 }
 
 module.exports = TwitterScraper

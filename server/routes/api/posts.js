@@ -27,17 +27,17 @@ router.get('/:celebrity', async (req, res) => {
   } = req;
   // 1. Lookup account details for the given fanmireId
   // which has the their twitter / facebook IDs
-  console.log('get posts for', celebrity);
 
   // 2. Update posts and send
   const posts = await loadPostsCollection();
 
   // Add Tweets
-  twitter_scraper.scrape("Fanmire_");
-  var tweets_json = fs.readFile('./data/tweets.json', 'utf8', function(err, data) {
-    console.log(JSON.stringify(data));
-
-  });
+  (async () => {
+    const tweets = await twitter_scraper.scrape("Fanmire_");
+    await posts.insertOne({
+      tweets
+    });
+  })();
 
   res.send(await posts.find({}).toArray());
 });
