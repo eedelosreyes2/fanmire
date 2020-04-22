@@ -42,7 +42,7 @@ router.get('/:celebrity', async (req, res) => {
   res.send(await posts.find({}).toArray());
 });
 
-// Add posts
+// Add posts - not used
 router.post('/:celebrity', async (req, res) => {
   const posts = await loadPostsCollection();
 
@@ -53,7 +53,7 @@ router.post('/:celebrity', async (req, res) => {
   res.status(201).send();
 });
 
-// Delete Post
+// Delete Post - not used
 router.delete('/:id', async (req, res) => {
   const posts = await loadPostsCollection();
   await posts.deleteOne({

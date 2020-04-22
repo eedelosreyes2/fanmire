@@ -54,7 +54,7 @@ p.text {
 
         <div class="posts-container">
             <div class="post" v-for="(post, index) in posts" v-bind:item="post" v-bind:index="index" v-bind:key="post._id" v-on:dblclick="deletePost(post._id)">
-                <p class="text">{{ post.tweets }}</p>
+                <p class="text">{{ post }}</p>
             </div>
         </div>
     </div>

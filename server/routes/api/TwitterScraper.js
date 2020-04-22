@@ -18,7 +18,8 @@ var client = new Twitter({
 class TwitterScraper {
   async scrape(screen_name) {
     return await client.get('statuses/user_timeline', {
-      screen_name
+      screen_name: screen_name,
+      count: 20
     });
 
     /* If return await doesn't work, then wrap in Promise */
@@ -33,7 +34,6 @@ class TwitterScraper {
     //     }
     //   });
     // })
-
   }
 }
 
