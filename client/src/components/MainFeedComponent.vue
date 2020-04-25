@@ -44,19 +44,17 @@ p.text {
     <h1>Find Celebrities</h1>
     <div class="create-post">
         <label for="create-post">I wanna find...</label>
-        <select v-model="celebrity" v-on:change="getPosts($event)">
-          <option v-for="celebrity in celebrities" :key="celebrity.id">{{celebrity}}</option>
+        <select v-model="celebrity" v-on:change="getPosts($event.target.value)">
+          <option
+            v-for="celebrity in celebrities"
+            v-bind:key="celebrity.id"
+          >{{celebrity}}</option>
         </select>
         <hr>
 
-        <p>
-          {{ posts }}
-        </p>
-
         <div class="posts-container">
             <div class="post" v-for="(post, index) in posts" v-bind:item="post" v-bind:index="index" v-bind:key="post._id" v-on:dblclick="deletePost(post._id)">
-                {{ `${post.createdAt.getDate()}/${post.createdAt.getMonth()}/${post.createdAt.getFullYear()}`}}
-                <p class="text">{{ post.text }}</p>
+                <p class="text">{{ post }}</p>
             </div>
         </div>
     </div>
@@ -72,15 +70,19 @@ export default {
     name: 'MainFeedComponent',
     data() {
         return {
-            celebrity: "",
+            celebrities: ["Fanmire"], // add more later
             posts: [],
-            celebrities: ["Elon Musk", "Kanye West", "Luigi Lucaccini"]
+            error: ''
         }
     },
     methods: {
-      getPosts(celebrity) {
-        console.log("nice, man");
-        this.posts = MainFeedService.getPosts(celebrity);
+      async getPosts(celebrity) {
+        try {
+            this.posts = await MainFeedService.getPosts(celebrity);
+        } catch (err) {
+            this.error = err.message;
+        }
+        console.log(this.posts);
       }
     }
 };

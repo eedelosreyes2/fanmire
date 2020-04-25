@@ -14,10 +14,20 @@
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
+    "errorhandler": "^1.5.1",
     "express": "^4.17.1",
+<<<<<<< HEAD
     "instagram-node": "^0.5.8",
     "mongodb": "^3.5.5",
     "node-instagram": "^4.3.0",
+=======
+    "facebook-sdk": "^0.3.3",
+    "fb": "^2.0.0",
+    "fbgraph": "^1.4.4",
+    "method-override": "^3.0.0",
+    "mongodb": "^3.5.5",
+    "pug": "^2.0.4",
+>>>>>>> 9727f5324a1acd0af9fc911b2be81cc4f8700c83
     "twitter": "^1.7.1",
     "uuid": "^7.0.2",
     "vue": "^2.6.11",
