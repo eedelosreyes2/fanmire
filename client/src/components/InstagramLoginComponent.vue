@@ -38,7 +38,7 @@
 <template>
   <div id="app">
     <facebook-login class="button"
-      appId="2659340121016450"
+      appId="207762313865032"
       @login="onLogin"
       @logout="onLogout"
       @get-initial-status="getUserData"
