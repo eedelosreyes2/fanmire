@@ -68,7 +68,7 @@ app.get('/facebook-search/:id', (req, res) => {
 
 const getMediaOptions = {
   method: 'GET',
-  uri: `https://graph.facebook.com/v2.8/${user.facebook_id}`,
+  uri: `https://graph.facebook.com/v6.0/${user.facebook_id}`,
   qs: {
     access_token: user.access_token,
     type: 'user',
