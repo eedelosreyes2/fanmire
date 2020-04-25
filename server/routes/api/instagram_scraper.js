@@ -63,7 +63,7 @@ const fetchInstagramAccount = async ({ access_token }) => {
 const mediaData = await fetchProfileMedia({
   ...accountInfo,
   access_token,
-  fields: ['id', 'caption'],
+  fields: ['username', 'caption'],
 });
 return { ...accountInfo, media: mediaData };
 };
@@ -80,7 +80,7 @@ return { ...accountInfo, media: mediaData };
  * @returns {Promise<AxiosResponse<T>>}
  */
 const fetchProfileMedia = async ({ id, access_token, fields }) => {
-  console.log(id);
+  //console.log(id);
   const graphURL = `https://graph.instagram.com/${id}/media`;
   return axios
     .get(`${graphURL}?fields=${fields.join(',')}&access_token=${access_token}`)
