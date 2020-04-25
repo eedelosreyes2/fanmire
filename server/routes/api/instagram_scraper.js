@@ -51,13 +51,21 @@ const fetchInstagramAccount = async ({ access_token }) => {
     fields: ['id']
   });
 
-  // Fetch user media
-  const mediaData = await fetchProfileMedia({
-    ...accountInfo,
-    access_token,
-    fields: ['id', 'media_type', 'permalink', 'caption', 'media_url', 'timestamp'],
-  });
-  return { ...accountInfo, media: mediaData };
+//   // Fetch user media
+//   const mediaData = await fetchProfileMedia({
+//     ...accountInfo,
+//     access_token,
+//     fields: ['id', 'media_type', 'permalink', 'caption', 'media_url', 'timestamp'],
+//   });
+//   return { ...accountInfo, media: mediaData };
+// };
+// Fetch user media
+const mediaData = await fetchProfileMedia({
+  ...accountInfo,
+  access_token,
+  fields: ['id', 'caption'],
+});
+return { ...accountInfo, media: mediaData };
 };
 
 /**
