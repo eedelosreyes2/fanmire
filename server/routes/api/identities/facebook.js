@@ -3,7 +3,7 @@ const axios = require('axios');
 
 const router = new Router();
 
-router.post('/facebook', async (req, res) => {
+router.post('/', async (req, res) => {
   const { body: { access_token } } = req;
 
   const URL = 'https://graph.facebook.com/v6.0/me';
