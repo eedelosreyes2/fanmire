@@ -49,7 +49,7 @@
       appId="207762313865032"
       @login="onLogin"
       @logout="onLogout"
-      @get-initial-status="getUserData"
+      @get-initial-status="refreshFB"
       @sdk-loaded="sdkLoaded">
     </facebook-login>
     <div v-if="isConnected" class="information">
@@ -74,7 +74,7 @@
 
 <script>
   import facebookLogin from 'facebook-login-vuejs'
-
+  import IdentityService from '../IdentityService'
   export default {
     name: 'FacebookLoginComponent.vue',
     data() {
@@ -91,24 +91,17 @@
       facebookLogin
     },
     methods: {
-    getUserData() {
-      this.FB.api('/me', 'GET', { fields: 'name, email, picture, posts' },
-        user => {
-          this.email = user.email;
-          this.name = user.name;
-          this.picture = user.picture.data.url;
-          this.posts = user.posts.data;
-        }
-      )
+    refreshFB() {
+      IdentityService.authenticateFB(this.FB.getAccessToken());
     },
     sdkLoaded(payload) {
       this.isConnected = payload.isConnected
       this.FB = payload.FB
-      if (this.isConnected) this.getUserData()
+      if (this.isConnected) this.refreshFB()
     },
     onLogin() {
       this.isConnected = true
-      this.getUserData()
+      this.refreshFB()
     },
     onLogout() {
       this.isConnected = false;
