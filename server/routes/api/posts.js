@@ -34,11 +34,19 @@ router.get('/:celebrity', async (req, res) => {
   // Add Tweets
   (async () => {
     const tweets = await twitter_scraper.scrape("Fanmire_");
-    await posts.insertOne({
-      tweets
-    });
+
+    var i;
+    for (i = 0; i < tweets.length; i++) {
+      var post = tweets[i];
+      console.log(post);
+      // await posts.insertOne({
+      //   post
+      // });
+    }
   })();
 
+
+  // Send data
   res.send(await posts.find({}).toArray());
 });
 
