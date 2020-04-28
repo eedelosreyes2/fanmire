@@ -11,11 +11,8 @@ const router = express.Router();
 /* MongoDB Database*/
 const mongodb = require('mongodb');
 
-/* File System */
-var fs = require('fs');
-
 /* Social Media Scrapers */
-const TwitterScraper = require('./TwitterScraper');
+const TwitterScraper = require('../TwitterScraper');
 const twitter_scraper = new TwitterScraper;
 
 
@@ -40,42 +37,9 @@ router.get('/:celebrity', async (req, res) => {
     posts.insertOne(parsed_tweets);
   })();
 
-  // Add Facebook Posts
-  (async () => {
-    // TODO: Add Facebook Posts
 
-  })();
-
-  // Add Instagram Posts
-  (async () => {
-    // TODO: Add Instagram Posts
-
-  })();
-
-  // Send data
   res.send(await posts.find({}).toArray());
 });
-
-// Add posts - not used
-router.post('/:celebrity', async (req, res) => {
-  const posts = await loadPostsCollection();
-
-  await posts.insertOne({
-    text: req.body.text,
-    createdAt: new Date()
-  });
-  res.status(201).send();
-});
-
-// Delete Post - not used
-router.delete('/:id', async (req, res) => {
-  const posts = await loadPostsCollection();
-  await posts.deleteOne({
-    _id: new mongodb.ObjectID(req.params.id)
-  });
-  res.status(200).send();
-});
-
 
 async function loadPostsCollection() {
   const client = await mongodb.MongoClient.connect(process.env.MONGODB_STRING, {

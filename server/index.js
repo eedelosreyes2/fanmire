@@ -2,16 +2,16 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 
-const server = express();
+const app = express();
 
 // Middleware
-server.use(bodyParser.json());
-server.use(cors());
+app.use(bodyParser.json());
+app.use(cors());
 
 const apiRoutes = require('./routes/api');
 
-server.use('/api', apiRoutes);
+app.use('/api', apiRoutes);
 
 const PORT = process.env.PORT || 5000;
 
-server.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
