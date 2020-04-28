@@ -8,9 +8,9 @@ const server = express();
 server.use(bodyParser.json());
 server.use(cors());
 
-const posts = require('./routes/api/posts');
+const apiRoutes = require('./routes/api');
 
-server.use('/api/posts', posts);
+server.use('/api', apiRoutes);
 
 const PORT = process.env.PORT || 5000;
 
