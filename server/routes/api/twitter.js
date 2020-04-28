@@ -15,7 +15,6 @@ const mongodb = require('mongodb');
 const TwitterScraper = require('./TwitterScraper');
 const twitter_scraper = new TwitterScraper;
 
-
 // Get and Add Posts
 router.get('/:celebrity', async (req, res) => {
   const {
@@ -25,7 +24,6 @@ router.get('/:celebrity', async (req, res) => {
   } = req;
   // 1. Lookup account details for the given fanmireId
   // which has the their twitter / facebook IDs
-  // Skip for now because we only have one celebrity - Fanmire
 
   // 2. Update posts and send
   const posts = await loadPostsCollection();

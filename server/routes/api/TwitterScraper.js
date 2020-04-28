@@ -4,6 +4,8 @@ require('dotenv').config({
   path: path.resolve(__dirname, '../../../.env')
 });
 
+const fs = require('fs');
+
 var Twitter = require('twitter');
 
 var client = new Twitter({
@@ -13,23 +15,7 @@ var client = new Twitter({
   access_token_secret: process.env.TWITTER_ACCESS_TOKEN_SECRET
 });
 
-var Content = require('../../models/content_schema');
-
 class TwitterScraper {
-  async parse(tweets) {
-    var parsed_tweets = [];
-    var i;
-
-    for (i = 0; i < tweets.length; i++) {
-      var tweet = tweets[i];
-      // var parsed_tweet = new Content {
-      //   user_name: tweet.user.name,
-      //   user_handle: tweet.user.screen_name,
-      //   content_text: text
-      // };
-    }
-  }
-
   async scrape(screen_name) {
     return await client.get('statuses/user_timeline', {
       screen_name: screen_name,
