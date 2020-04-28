@@ -1,36 +1,47 @@
-const { Router } = require('express');
 const axios = require('axios');
 const url = require('url');
 const Instagram = require('node-instagram').default;
+const express = require('express');
 
 const INSTAGRAM_AUTH = {
   clientId: "322410165391044",
   clientSecret: "fc9719c5da4846739f2720a44ed41327",
 };
 const instagram = new Instagram(INSTAGRAM_AUTH);
-const redirectUri = 'https://localhost:5000/api/identity/instagram';
+const redirectUri = 'https://localhost:3000/auth/instagram/callback/';
+
+// create express server
+const https = require('https');
+const fs = require('fs');
+const app = express();
 
 
-const router = new Router();
-
-router.get('/oauth', (req, res) => {
-    res.redirect(instagram.getAuthorizationUrl(redirectUri, { scope: ["user_profile", "user_media"] }));
+// Redirect user to instagram oauth
+app.get('/auth/instagram', (req, res) => {
+  res.redirect(instagram.getAuthorizationUrl(redirectUri, { scope: ["user_profile", "user_media"] }));
 });
 
 // Handle auth code and get access_token for user
-router.get('/', async (req, res) => {
+app.get('/auth/instagram/callback', async (req, res) => {
   try {
     const { access_token } = await instagram.authorizeUser(req.query.code, redirectUri);
-
-    const accountInfo = await fetchInstagramAccount({ access_token });
-    // TODO: store this in mongo
-    // res.json(accountInfo);
+    // in theory, you'd kick off the scraping here or something...
+    // but for testing it might be easier to redirect you to an
+    // endpoint so you can just refresh with the token instead
+    // of having to go through the auth flow every time
+    res.redirect(url.format({
+      pathname: '/account',
+      query: { access_token }
+    }));
   } catch (err) {
-    console.log(err);
+    res.json(err);
   }
+});
 
-  // redirect them back to the app
-  res.redirect('http://localhost:8080/');
+app.get('/account', async (req, res) => {
+  const { query: { access_token } } = req;
+  const accountInfo = await fetchInstagramAccount({ access_token });
+  res.json(accountInfo);
 });
 
 const fetchInstagramAccount = async ({ access_token }) => {
@@ -40,8 +51,14 @@ const fetchInstagramAccount = async ({ access_token }) => {
     fields: ['id']
   });
 
-
+//   // Fetch user media
+//   const mediaData = await fetchProfileMedia({
+//     ...accountInfo,
+//     access_token,
 //     fields: ['id', 'media_type', 'permalink', 'caption', 'media_url', 'timestamp'],
+//   });
+//   return { ...accountInfo, media: mediaData };
+// };
 // Fetch user media
 const mediaData = await fetchProfileMedia({
   ...accountInfo,
@@ -85,4 +102,10 @@ const fetchAccountData = async ({ access_token, fields }) => {
     .then(({ data }) => data);
 };
 
-module.exports = router;
+// listen to port 3000
+https.createServer({
+  cert: fs.readFileSync('../../server.cert'),
+  key: fs.readFileSync('../../server.key')
+}, app).listen(3000, () => {
+  console.log('app listening on https://localhost:3000');
+});
