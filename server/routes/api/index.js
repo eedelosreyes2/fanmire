@@ -1,4 +1,7 @@
-const Router = require('express');
+const {
+  Router
+} = require('express');
+
 const identityRouter = require('./identities');
 
 const router = Router();

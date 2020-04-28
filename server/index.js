@@ -12,8 +12,6 @@ const app = express();
 var fs = require("fs")
 var https = require("https");
 
-const server = express();
-
 // Middleware
 app.use(bodyParser.json());
 app.use(cors());

@@ -12,7 +12,7 @@ const router = express.Router();
 const mongodb = require('mongodb');
 
 /* Social Media Scrapers */
-const TwitterScraper = require('../TwitterScraper');
+const TwitterScraper = require('./TwitterScraper');
 const twitter_scraper = new TwitterScraper;
 
 
@@ -36,7 +36,6 @@ router.get('/:celebrity', async (req, res) => {
     const parsed_tweets = await twitter_scraper.parse(tweets); // Array of Tweets
     posts.insertOne(parsed_tweets);
   })();
-
 
   res.send(await posts.find({}).toArray());
 });
