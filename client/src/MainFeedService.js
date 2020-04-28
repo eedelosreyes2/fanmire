@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = 'http://localhost:5000/api/posts'; // change to proxy later
+const url = 'https://localhost:5000/api/posts'; // change to proxy later
 
 class MainFeedService {
   // Get Posts

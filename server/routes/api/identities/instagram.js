@@ -30,7 +30,7 @@ router.get('/', async (req, res) => {
   }
 
   // redirect them back to the app
-  res.redirect('http://localhost:8080/');
+  res.redirect('https://localhost:8080/');
 });
 
 const fetchInstagramAccount = async ({ access_token }) => {

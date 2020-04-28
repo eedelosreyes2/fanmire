@@ -9,7 +9,7 @@ const axios = require('axios');
 
 const router = new Router();
 
-const mongodb = require('mongodb');s
+const mongodb = require('mongodb');
 
 router.post('/', async (req, res) => {
   const { body: { access_token } } = req;
@@ -27,12 +27,13 @@ router.post('/', async (req, res) => {
   const posts = await loadPostsCollection();
 
   const { data } = await axios.get(URL, options)
+  (async () => {
+    data.insertOne(json(data));
+  })();
   // TODO: store in mongo... then send status of 200?  Or send entire user profile?
   res.json(data);
+});
 
-  (async () => {
-    posts.insertOne(json(data));
-  })();
 
 
 async function loadPostsCollection() {

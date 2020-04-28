@@ -23,6 +23,8 @@ server.use('/api', apiRoutes);
 
 const PORT = process.env.PORT || 5000;
 
+console.log(process.env);
+
 https.createServer({
   key: process.env.SERVER_KEY,
   cert: process.env.SERVER_CERT
