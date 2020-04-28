@@ -18,6 +18,7 @@ var fs = require('fs');
 const TwitterScraper = require('./TwitterScraper');
 const twitter_scraper = new TwitterScraper;
 
+
 // Get and Add Posts
 router.get('/:celebrity', async (req, res) => {
   const {
@@ -27,6 +28,7 @@ router.get('/:celebrity', async (req, res) => {
   } = req;
   // 1. Lookup account details for the given fanmireId
   // which has the their twitter / facebook IDs
+  // Skip for now because we only have one celebrity - Fanmire
 
   // 2. Update posts and send
   const posts = await loadPostsCollection();
@@ -34,11 +36,23 @@ router.get('/:celebrity', async (req, res) => {
   // Add Tweets
   (async () => {
     const tweets = await twitter_scraper.scrape("Fanmire_");
-    await posts.insertOne({
-      tweets
-    });
+    const parsed_tweets = await twitter_scraper.parse(tweets); // Array of Tweets
+    posts.insertOne(parsed_tweets);
   })();
 
+  // Add Facebook Posts
+  (async () => {
+    // TODO: Add Facebook Posts
+
+  })();
+
+  // Add Instagram Posts
+  (async () => {
+    // TODO: Add Instagram Posts
+
+  })();
+
+  // Send data
   res.send(await posts.find({}).toArray());
 });
 
