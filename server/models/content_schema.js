@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 
 const contentSchema = mongoose.Schema({
+  _id: mongoose.Schema.Types.ObjectId,
   user_name: String,
   user_handle: String,
   user_image: String,
@@ -10,17 +11,6 @@ const contentSchema = mongoose.Schema({
   date_created: Date
 });
 
-// class SchemaConverter {
-//   async convert_tweets(twitter_json) {
-//     var tweets = [];
-//
-//     var i;
-//     for (i = 0; i < 1; i++) {
-//       var tweet = twitter_json[i];
-//       console.log(tweet.user.name);
-//       console.log(tweet.text);
-//     }
-//   }
-// }
+var Content = mongoose.model('Content', contentSchema);
 
-let Content = module.exports = mongoose.model('Content', contentSchema);
+module.exports = Content;
