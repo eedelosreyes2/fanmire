@@ -1,6 +1,7 @@
-
-const { Router } = require('express');
-const postsRouter = require('./posts');
+const {
+  Router
+} = require('express');
+const postsRouter = require('./twitter');
 const identityRouter = require('./identities');
 
 const router = Router();

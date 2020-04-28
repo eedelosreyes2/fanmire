@@ -1,4 +1,6 @@
-const { Router } = require('express');
+const {
+  Router
+} = require('express');
 
 const facebookRouter = require('./facebook');
 const instagramRouter = require('./instagram');

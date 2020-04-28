@@ -1,15 +1,6 @@
-/* Revtrieve Environment Variables from .env */
-const path = require('path')
-require('dotenv').config({
-  path: path.resolve(__dirname, '../../.env')
-});
-
 const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
-
-var fs = require("fs")
-var https = require("https");
 
 const server = express();
 
@@ -23,6 +14,7 @@ server.use('/api', apiRoutes);
 
 const PORT = process.env.PORT || 5000;
 
+<<<<<<< HEAD
 console.log(process.env);
 
 https.createServer({
@@ -34,3 +26,6 @@ https.createServer({
 })
 
 //server.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+=======
+server.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+>>>>>>> 7808afca1c7c877f80f6ccf807f76493896a3ecd
