@@ -8,6 +8,7 @@
 </template>
 
 <script>
+
 import MainFeedComponent from './components/MainFeedComponent.vue';
 import FacebookLoginComponent from './components/FacebookLoginComponent';
 import InstagramLoginComponent from './components/InstagramLoginComponent';
