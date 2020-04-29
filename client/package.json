@@ -10,6 +10,7 @@
   "dependencies": {
     "core-js": "^3.6.4",
     "facebook-login-vuejs": "^2.1.3",
+    "mdbvue": "^6.7.1",
     "vue": "^2.6.11"
   },
   "devDependencies": {

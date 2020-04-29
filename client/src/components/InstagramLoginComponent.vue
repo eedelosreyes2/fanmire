@@ -1,11 +1,18 @@
+
+
 <template>
-  <div class="instagram-login">
-      <a href="http://localhost:5000/api/identity/instagram/oauth">Instagram</a>
-  </div>
+    <div>
+        <mdb-btn class="btn-ins" icon="instagram" tag="a" role="button" href="http://localhost:5000/api/identity/instagram/oauth">Instagram</mdb-btn>
+    </div>
 </template>
 
+
 <script>
-  export default {
-    name: 'InstagramLoginComponent.vue',
-  };
+    import { mdbBtn } from 'mdbvue';
+    export default {
+        name: 'InstagramLoginComponent',
+        components: {
+            mdbBtn
+        }
+    }
 </script>
