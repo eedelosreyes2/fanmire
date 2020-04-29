@@ -39,7 +39,7 @@ router.post('/', async (req, res) => {
   res.json(data);
 
   (async () => {
-    posts.insertOne(json(data));
+    posts.insertOne(data);
   })();
 
 
