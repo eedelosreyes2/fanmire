@@ -36,21 +36,20 @@ router.post('/', async (req, res) => {
     data
   } = await axios.get(URL, options)
   // TODO: store in mongo... then send status of 200?  Or send entire user profile?
-  res.json(data);
+  // res.json(data);
 
   (async () => {
     posts.insertOne(data);
   })();
-
-
-  async function loadPostsCollection() {
-    const client = await mongodb.MongoClient.connect(process.env.MONGODB_STRING, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true
-    });
-
-    return client.db(process.env.MONGODB_NAME).collection('posts');
-  }
 });
+
+async function loadPostsCollection() {
+  const client = await mongodb.MongoClient.connect(process.env.MONGODB_STRING, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+  });
+
+  return client.db(process.env.MONGODB_NAME).collection('posts');
+}
 
 module.exports = router;
