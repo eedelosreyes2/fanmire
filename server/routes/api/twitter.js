@@ -39,16 +39,15 @@ router.get('/:celebrity', async (req, res) => {
 
   const posts = await loadPostsCollection();
 
-  // Add Tweets
+  const tweets = await scrape("Fanmire_");
+  const parsed_tweets = await parse(tweets) // Array of Tweets
+
+  res.json(parsed_tweets);
+
+  // Add Tweets to MongoDB
   (async () => {
-    const tweets = await scrape("Fanmire_");
-    const parsed_tweets = await parse(tweets) // Array of Tweets
-
-    // res.json(parsed_tweets);
-    posts.insertOne(parsed_tweets);
+    posts.insertMany(parsed_tweets);
   })();
-
-  res.send(await posts.find({}).toArray());
 });
 
 async function parse(tweets) {
@@ -61,22 +60,22 @@ async function parse(tweets) {
       _id: new mongoose.Types.ObjectId(),
       user_name: tweet.user.name,
       user_handle: tweet.user.screen_name,
-      content_text: tweet.text
+      content_text: tweet.full_text,
+      created_date: tweet.created_at
     });
+    // console.log(parsed_tweet);
+    parsed_tweets.push(parsed_tweet);
   }
+
+  return parsed_tweets;
 }
 
 async function scrape(screen_name) {
-  // return await client.get('statuses/user_timeline', {
-  //   screen_name: screen_name,
-  //   count: 20
-  // });
-
   return await client.get('statuses/user_timeline', {
     screen_name: screen_name,
+    tweet_mode: 'extended',
     count: 20
   });
-
 }
 
 async function loadPostsCollection() {

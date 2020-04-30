@@ -8,7 +8,7 @@ const contentSchema = mongoose.Schema({
   content_type: String,
   content_text: String,
   likes: Number,
-  date_created: Date
+  created_date: Date
 });
 
 var Content = mongoose.model('Content', contentSchema);
