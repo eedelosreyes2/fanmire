@@ -56,12 +56,15 @@ async function parse(tweets) {
 
   for (i = 0; i < tweets.length; i++) {
     var tweet = tweets[i];
+    // console.log(tweet);
     var parsed_tweet = new Content({
       _id: new mongoose.Types.ObjectId(),
+      social_media: 'Twitter',
       user_name: tweet.user.name,
       user_handle: tweet.user.screen_name,
       content_text: tweet.full_text,
-      created_date: tweet.created_at
+      created_date: tweet.created_at.replace(/^\w+ (\w+) (\d+) ([\d:]+) \+0000 (\d+)$/,
+        "$1 $2 $4 $3")
     });
     // console.log(parsed_tweet);
     parsed_tweets.push(parsed_tweet);

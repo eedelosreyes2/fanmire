@@ -14,26 +14,60 @@ p.error {
 
 div.post {
     position: relative;
-    border: 1px solid #5bd658;
-    background-color: #bcffb8;
+    border: 1px solid red;
+    border-radius: 20px;
+    background-color: #ffffff;
     padding: 10px 10px 30px 10px;
     margin-bottom: 15px;
 }
 
-div.created-at {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 5px 15px 5px 15px;
-    background-color: darkgreen;
-    color: white;
-    font-size: 13px;
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p.social_media {
+    color: grey;
+    float: right;
+    font-size: 10px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+p.user_name {
+    color: red;
+    display: inline;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+p.user_handle {
+    color: grey;
+    display: inline;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+p.created_date {
+    color: black;
+    font-size: 12px;
+    font-weight: 200;
+    margin: 0;
+    padding-bottom: 20px;
+    text-indent: 5px;
 }
 
 p.text {
-    font-size: 22px;
-    font-weight: 700;
-    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 150;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-top: 0px;
+    padding: 0px;
 }
 
 </style>
@@ -54,9 +88,10 @@ p.text {
 
         <div class="posts-container">
             <div class="post" v-for="(post, index) in posts" v-bind:item="post" v-bind:index="index" v-bind:key="post._id" v-bind:tweet="post.tweet" v-on:dblclick="deletePost(post._id)">
-                <p class="text">{{ post.user_name }}</p>
-                <p class="text">{{ post.user_handle }}</p>
-                <p class="text">{{ post.created_date }}</p>
+                <p class="social_media">via {{ post.social_media }}</p>
+                <p class="user_name">{{ post.user_name }}</p>
+                <p class="user_handle"> @{{ post.user_handle }}</p>
+                <p class="created_date">{{ post.created_date }}</p>
                 <p class="text">{{ post.content_text }}</p>
             </div>
         </div>
