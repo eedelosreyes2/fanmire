@@ -2,6 +2,8 @@ const { Router } = require('express');
 const axios = require('axios');
 const url = require('url');
 const Instagram = require('node-instagram').default;
+const mongodb = require('mongodb');
+const mongoose = require('mongoose');
 
 const INSTAGRAM_AUTH = {
   clientId: "322410165391044",
@@ -9,7 +11,6 @@ const INSTAGRAM_AUTH = {
 };
 const instagram = new Instagram(INSTAGRAM_AUTH);
 const redirectUri = 'https://localhost:5000/api/identity/instagram';
-
 
 const router = new Router();
 
@@ -21,17 +22,42 @@ router.get('/oauth', (req, res) => {
 router.get('/', async (req, res) => {
   try {
     const { access_token } = await instagram.authorizeUser(req.query.code, redirectUri);
-
+    const posts = await loadPostsCollection();
     const accountInfo = await fetchInstagramAccount({ access_token });
+    const parsed_posts = await parse(accountInfo);
     // TODO: store this in mongo
-    // res.json(accountInfo);
+    res.json(parsed_posts);
+
   } catch (err) {
     console.log(err);
   }
-
   // redirect them back to the app
   res.redirect('http://localhost:8080/');
 });
+
+(async () => {
+    posts.insertMany(parsed_posts);
+  })();
+});
+
+async function parse(posts) {
+  var parsed_posts = posts[];
+  var i;
+
+  for (i = 0; i < posts.length; i++) {
+    var post = posts[i];
+    var parsed_posts = new Content({
+      _id: new mongoose.Types.ObjectId(),
+      user_name: post.data.username,
+      user_handle: tweet.user.id,
+      content_text: post.data.caption,
+      created_date: post.data.timestamp
+    });
+    // console.log(parsed_tweet);
+    parsed_tweets.push(parsed_posts);
+  }
+  return parsed_posts;
+}
 
 const fetchInstagramAccount = async ({ access_token }) => {
   // Fetch the userId tied to the access_token so we can grab user data
@@ -46,7 +72,7 @@ const fetchInstagramAccount = async ({ access_token }) => {
 const mediaData = await fetchProfileMedia({
   ...accountInfo,
   access_token,
-  fields: ['username', 'caption'],
+  fields: ['username', 'id', 'caption', 'timestamp'],
 });
 return { ...accountInfo, media: mediaData };
 };
@@ -84,5 +110,14 @@ const fetchAccountData = async ({ access_token, fields }) => {
     .get(`${graphURL}?fields=${fields.join(',')}&access_token=${access_token}`)
     .then(({ data }) => data);
 };
+
+async function loadPostsCollection() {
+  const client = await mongodb.MongoClient.connect(process.env.MONGODB_STRING, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+  });
+
+  return client.db(process.env.MONGODB_NAME).collection('posts');
+}
 
 module.exports = router;
