@@ -56,20 +56,26 @@ async function parse(tweets) {
 
   for (i = 0; i < tweets.length; i++) {
     var tweet = tweets[i];
-    console.log(tweet.entities.media[0]);
-    // console.log();
+
     var cut = tweet.full_text.lastIndexOf("https");
+    var images = [];
+
+    var j;
+    for (j = 0; j < tweet.entities.media.length; j++) {
+      images.push(tweet.entities.media[j].media_url);
+    }
+
     var parsed_tweet = new Content({
       _id: new mongoose.Types.ObjectId(),
       social_media: 'Twitter',
       user_name: tweet.user.name,
-      user_handle: tweet.user.screen_name,
+      user_handle: "@" + tweet.user.screen_name,
       content_text: tweet.full_text.slice(0, cut),
-      content_image: tweet.entities.media[0].media_url,
+      content_images: images,
       likes: tweet.favorite_count,
-      retweets: tweet.retweet_count,
+      retweets: "Retweets: " + tweet.retweet_count,
       created_date: tweet.created_at.replace(/^\w+ (\w+) (\d+) ([\d:]+) \+0000 (\d+)$/,
-        "$1 $2 $4 $3")
+        "$1 $2, $4 at $3")
     });
     parsed_tweets.push(parsed_tweet);
   }

@@ -13,7 +13,7 @@ const contentSchema = mongoose.Schema({
   content_text: String,
   content_images: [String],
   likes: Number,
-  retweets: Number,
+  retweets: String,
   created_date: String,
 });
 

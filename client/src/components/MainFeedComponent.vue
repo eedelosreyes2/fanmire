@@ -1,15 +1,12 @@
 <style scoped>
 
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 div.container {
     max-width: 800px;
     margin: 0 auto;
-}
-
-p.error {
-    border: 1px solid #ff5b5f;
-    background-color: #ffc5c1;
-    padding: 10px;
-    margin-bottom: 15px;
 }
 
 div.post {
@@ -17,12 +14,26 @@ div.post {
     border: 1px solid red;
     border-radius: 20px;
     background-color: #ffffff;
-    padding: 10px 10px 30px 10px;
+    padding: 10px 10px 20px 10px;
     margin-bottom: 15px;
 }
 
-* {
-    font-family: Arial, Helvetica, sans-serif;
+img.content_image {
+    display: block;
+    height: auto;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 400px;
+    max-width: 600px;
+    padding: 15px;
+}
+
+p.error {
+    border: 1px solid #ff5b5f;
+    background-color: #ffc5c1;
+    padding: 10px;
+    margin-bottom: 15px;
 }
 
 p.social_media {
@@ -70,15 +81,6 @@ p.text {
     padding: 0px;
 }
 
-p.image {
-    font-size: 18px;
-    font-weight: 150;
-    margin: 0px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    padding: 0px;
-}
-
 p.likes {
     color: grey;
     display: inline;
@@ -107,17 +109,19 @@ p.likes {
         <hr>
 
         <div class="posts-container">
-            <div class="post" v-for="(post) in posts" v-bind:key="post._id">
+            <div class="post" v-for="(post, index) in posts" v-bind:key="index">
                 <p class="social_media">via {{ post.social_media }}</p>
                 <p class="user_name">{{ post.user_name }}</p>
-                <p class="user_handle"> @{{ post.user_handle }}</p>
+                <p class="user_handle"> {{ post.user_handle }}</p>
                 <p class="created_date">{{ post.created_date }}</p>
                 <p class="text">{{ post.content_text }}</p>
 
-                <p class="image">{{ post.content_image }}</p>
+                <div v-for="(image, image_index) in post.content_images" v-bind:key="image_index">
+                  <img class="content_image" :src="image"/>
+                </div>
 
                 <p class="likes">Likes: {{ post.likes }}</p>
-                <p class="likes">Retweets: {{ post.retweets }}</p>
+                <p class="likes">{{ post.retweets }}</p>
             </div>
         </div>
     </div>
