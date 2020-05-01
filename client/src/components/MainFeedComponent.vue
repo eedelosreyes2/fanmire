@@ -115,11 +115,9 @@ p.likes {
                 <p class="user_handle"> {{ post.user_handle }}</p>
                 <p class="created_date">{{ post.created_date }}</p>
                 <p class="text">{{ post.content_text }}</p>
-
                 <div v-for="(image, image_index) in post.content_images" v-bind:key="image_index">
                   <img class="content_image" :src="image"/>
                 </div>
-
                 <p class="likes">Likes: {{ post.likes }}</p>
                 <p class="likes">{{ post.retweets }}</p>
             </div>
