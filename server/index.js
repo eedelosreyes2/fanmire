@@ -21,14 +21,14 @@ app.use('/api', apiRoutes);
 
 const PORT = process.env.PORT || 5000;
 
-// console.log(process.env);
+console.log(process.env);
 
-// https.createServer({
-//   key: process.env.SERVER_KEY,
-//   cert: process.env.SERVER_CERT
-// }, app)
-// .listen(PORT, function () {
-//   console.log('Example app listening on port 5000! Go to https://localhost:5000/')
-// })
+https.createServer({
+  key: process.env.SERVER_KEY,
+  cert: process.env.SERVER_CERT
+}, app)
+.listen(PORT, function () {
+  console.log('Example app listening on port 5000! Go to https://localhost:5000/')
+})
 
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+//app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
