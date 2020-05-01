@@ -21,7 +21,7 @@ div.post {
     margin-bottom: 15px;
 }
 
-p {
+* {
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -64,9 +64,29 @@ p.created_date {
 p.text {
     font-size: 18px;
     font-weight: 150;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     margin-left: 10px;
     margin-top: 0px;
+    padding: 0px;
+}
+
+p.image {
+    font-size: 18px;
+    font-weight: 150;
+    margin: 0px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 0px;
+}
+
+p.likes {
+    color: grey;
+    display: inline;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
     padding: 0px;
 }
 
@@ -87,12 +107,17 @@ p.text {
         <hr>
 
         <div class="posts-container">
-            <div class="post" v-for="(post, index) in posts" v-bind:item="post" v-bind:index="index" v-bind:key="post._id" v-bind:tweet="post.tweet" v-on:dblclick="deletePost(post._id)">
+            <div class="post" v-for="(post) in posts" v-bind:key="post._id">
                 <p class="social_media">via {{ post.social_media }}</p>
                 <p class="user_name">{{ post.user_name }}</p>
                 <p class="user_handle"> @{{ post.user_handle }}</p>
                 <p class="created_date">{{ post.created_date }}</p>
                 <p class="text">{{ post.content_text }}</p>
+
+                <p class="image">{{ post.content_image }}</p>
+
+                <p class="likes">Likes: {{ post.likes }}</p>
+                <p class="likes">Retweets: {{ post.retweets }}</p>
             </div>
         </div>
     </div>
