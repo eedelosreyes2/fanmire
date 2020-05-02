@@ -12,6 +12,7 @@ const axios = require('axios');
 const router = new Router();
 
 const mongodb = require('mongodb');
+const mongoose = require('mongoose');
 
 router.post('/', async (req, res) => {
   const {
@@ -39,11 +40,14 @@ router.post('/', async (req, res) => {
   // TODO: Make into content format
 
   res.json(data);
+  const parsed_data = await parse(data)
 
   (async () => {
-    posts.insertOne(data);
+    posts.insertMany(parsed_data);
   })();
 });
+
+  //TODO: make a parse function
 
 async function loadPostsCollection() {
   const client = await mongodb.MongoClient.connect(process.env.MONGODB_STRING, {
