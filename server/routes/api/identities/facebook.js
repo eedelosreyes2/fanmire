@@ -22,7 +22,7 @@ router.post('/', async (req, res) => {
   } = req;
 
   const URL = 'https://graph.facebook.com/v6.0/me';
-  const userFieldSet = 'id,name,email,link,photos,feed';
+  const userFieldSet = 'name,posts,photos';
 
   const options = {
     params: {
@@ -38,8 +38,7 @@ router.post('/', async (req, res) => {
   } = await axios.get(URL, options)
 
   // TODO: Make into content format
-
-  res.json(data);
+  res.json(data); //data is an array of facebook posts
   const parsed_data = await parse(data)
 
   (async () => {
@@ -47,7 +46,40 @@ router.post('/', async (req, res) => {
   })();
 });
 
+
+
   //TODO: make a parse function
+  async function parse(data) {
+    var parsed_posts = [];
+    var i;
+
+    for (i = 0; i < data.length; i++) {
+      var post = posts[i];
+
+      var cut = post.full_text.lastIndexOf("https");
+      var images = [];
+
+      var j;
+      for (j = 0; j < post.entities.media.length; j++) {
+        images.push(post.entities.media[j].media_url);
+      }
+
+      var parsed_tweet = new Content({
+        _id: new mongoose.Types.ObjectId(),
+        social_media: 'Facebook',
+        user_name: post.user.name,
+        //user_handle: "@" + tweet.user.screen_name,
+        content_text: post.full_text.slice(0, cut),
+        content_images: images,
+        //likes: tweet.favorite_count,
+        //retweets: "Retweets: " + tweet.retweet_count,
+        created_date: post.created_at.replace(/^\w+ (\w+) (\d+) ([\d:]+) \+0000 (\d+)$/,
+          "$1 $2, $4 at $3")
+      });
+      parsed_data.push(parsed_post);
+    }
+    return parsed_data;
+  }
 
 async function loadPostsCollection() {
   const client = await mongodb.MongoClient.connect(process.env.MONGODB_STRING, {
