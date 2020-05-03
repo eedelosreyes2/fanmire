@@ -22,7 +22,7 @@ router.post('/', async (req, res) => {
   } = req;
 
   const URL = 'https://graph.facebook.com/v6.0/me';
-  const userFieldSet = 'id, name, about, email, link, is_verified, website, picture, photos, feed';
+  const userFieldSet = 'id,name,email,link,photos,feed';
 
   const options = {
     params: {
