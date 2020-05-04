@@ -4,6 +4,8 @@ require('dotenv').config({
   path: path.resolve(__dirname, '../../../../.env')
 });
 
+const Content = require('../../../models/content_schema');
+
 const {
   Router
 } = require('express');
@@ -16,30 +18,46 @@ const mongoose = require('mongoose');
 
   //TODO: make a parse function
   async function parse(data) {
+
     var parsed_posts = [];
     var i;
 
-    for (i = 0; i < data.length; i++) {
-      var post = data[i];
+    //iterate through posts
+    for (i = 0; i < data.posts.data.length; i++) {
+      var post = data.posts.data[i];
 
-      //var cut = post.full_text.lastIndexOf("https");
       var images = [];
 
-      var j;
-      for (j = 0; j < post.data.length; j++) {
-        images.push(post.data.picture);
-      }
+      images.push(post.picture);
 
       var parsed_post = new Content({
         _id: new mongoose.Types.ObjectId(),
         social_media: 'Facebook',
         user_name: data.name,
-        content_text: post.message.slice(0, cut),
+        content_text: post.message,
         content_images: images,
-        created_date: post.created_at.replace(/^\w+ (\w+) (\d+) ([\d:]+) \+0000 (\d+)$/,
-          "$1 $2, $4 at $3")
+        created_date: post.created_time
       });
       parsed_posts.push(parsed_post);
+    }
+
+    //do the same for the photos
+    var j;
+    for (j = 0; j < data.photos.data.length; j++)
+    {
+      var photo = data.photos.data[j];
+
+      var images = [];
+      images.push(photo.picture);
+
+      var parsed_photo = new Content({
+        _id: new mongoose.Types.ObjectId(),
+        social_media: 'Facebook',
+        user_name: data.name,
+        content_images: images,
+        created_date: photo.created_time
+      });
+      parsed_posts.push(parsed_photo);
     }
     console.log(parsed_posts);
     return parsed_posts;
@@ -54,7 +72,7 @@ router.post('/', async (req, res) => {
   } = req;
 
   const URL = 'https://graph.facebook.com/v6.0/me';
-  const userFieldSet = 'name,posts,photos';
+  const userFieldSet = 'name,posts{picture,message,created_time},photos{picture,created_time}';
 
   const options = {
     params: {
@@ -69,9 +87,7 @@ router.post('/', async (req, res) => {
     data
   } = await axios.get(URL, options)
 
-  // TODO: Make into content format
-  res.json(data); //data is an array of facebook posts
-  //console.log(data);
+  //Make into content format
   const parsed_data = await parse(data)
 
   await posts.insertMany(parsed_data);
