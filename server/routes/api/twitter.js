@@ -79,7 +79,7 @@ async function parse(tweets) {
     });
     parsed_tweets.push(parsed_tweet);
   }
-
+  
   return parsed_tweets;
 }
 
