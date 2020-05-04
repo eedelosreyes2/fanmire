@@ -49,7 +49,6 @@
       appId="207762313865032"
       @login="onLogin"
       @logout="onLogout"
-      @get-initial-status="refreshFB"
       @sdk-loaded="sdkLoaded">
     </facebook-login>
     <div v-if="isConnected" class="information">
@@ -91,15 +90,18 @@
       facebookLogin
     },
     methods: {
-    refreshFB() {
-      IdentityService.authenticateFB(this.FB.getAccessToken());
+    async refreshFB() {
+      const fbPosts = await IdentityService.authenticateFB(this.FB.getAccessToken());
+      console.log({ fbPosts });
     },
     sdkLoaded(payload) {
       this.isConnected = payload.isConnected
       this.FB = payload.FB
+      console.log('sdk loaded');
       if (this.isConnected) this.refreshFB()
     },
     onLogin() {
+    console.log('onLogin');
       this.isConnected = true
       this.refreshFB()
     },

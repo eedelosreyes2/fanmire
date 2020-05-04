@@ -7,7 +7,7 @@ class IdentityService {
   static authenticateFB(access_token) {
     return axios.post(`${url}/facebook`, {
       access_token
-    });
+    }).then(({ data }) => data);
   }
 }
 
