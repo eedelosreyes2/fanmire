@@ -88,9 +88,16 @@ router.post('/', async (req, res) => {
   //Make into content format
   const parsed_data = await parse(data)
 
-  (async () => {
-    posts.insertMany(parsed_tweets);
-  })();
+  console.log(parsed_data);
+
+  res.json(parsed_data);
+
+  // Add Tweets to MongoDB
+  // (async () => {
+  //   posts.insertMany(parsed_data);
+  // })();
+   await posts.insertMany(parsed_data);
+   console.log(posts);
 });
 
 async function loadPostsCollection() {
