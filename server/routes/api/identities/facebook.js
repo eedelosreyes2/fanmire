@@ -58,12 +58,11 @@ async function parse(data) {
     });
     parsed_posts.push(parsed_photo);
   }
-  console.log(parsed_posts);
   return parsed_posts;
 }
 
 
-router.get('/:celebrity', async (req, res) => {
+router.post('/', async (req, res) => {
   const {
     body: {
       access_token
@@ -94,12 +93,12 @@ router.get('/:celebrity', async (req, res) => {
   res.json(parsed_data);
 
   // Add Tweets to MongoDB
-  (async () => {
-    posts.insertMany(parsed_data);
-  })();
+  // (async () => {
+  //   posts.insertMany(parsed_data);
+  // })();
+   await posts.insertMany(parsed_data);
+   console.log(posts);
 });
-
-
 
 async function loadPostsCollection() {
   const client = await mongodb.MongoClient.connect(process.env.MONGODB_STRING, {
