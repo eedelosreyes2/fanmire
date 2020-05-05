@@ -58,12 +58,11 @@ async function parse(data) {
     });
     parsed_posts.push(parsed_photo);
   }
-  console.log(parsed_posts);
   return parsed_posts;
 }
 
 
-router.get('/:celebrity', async (req, res) => {
+router.post('/', async (req, res) => {
   const {
     body: {
       access_token
@@ -93,8 +92,6 @@ router.get('/:celebrity', async (req, res) => {
     posts.insertMany(parsed_tweets);
   })();
 });
-
-
 
 async function loadPostsCollection() {
   const client = await mongodb.MongoClient.connect(process.env.MONGODB_STRING, {
