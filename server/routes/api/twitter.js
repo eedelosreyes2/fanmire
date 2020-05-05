@@ -21,13 +21,7 @@ const client = new Twitter({
   access_token_secret: process.env.TWITTER_ACCESS_TOKEN_SECRET
 });
 
-var bodyParser = require('body-parser');
-
 const router = new Router();
-router.use(bodyParser.json());
-router.use(bodyParser.urlencoded({
-  extended: false
-}));
 
 // Get and Add Posts
 router.get('/:celebrity', async (req, res) => {
@@ -48,6 +42,8 @@ router.get('/:celebrity', async (req, res) => {
   (async () => {
     posts.insertMany(parsed_tweets);
   })();
+
+  res.json(await posts.find({}).toArray());
 });
 
 async function parse(tweets) {
@@ -79,7 +75,7 @@ async function parse(tweets) {
     });
     parsed_tweets.push(parsed_tweet);
   }
-  
+
   return parsed_tweets;
 }
 
