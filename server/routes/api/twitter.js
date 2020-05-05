@@ -34,6 +34,8 @@ router.get('/:celebrity', async (req, res) => {
   const posts = await loadPostsCollection();
   const tweets = await scrape("Fanmire_");
 
+  // posts.remove({});
+
   // Add Tweets to MongoDB
   (async () => {
     const parsed_tweets = await parse(tweets) // Array of Tweets
