@@ -16,55 +16,54 @@ const router = new Router();
 const mongodb = require('mongodb');
 const mongoose = require('mongoose');
 
-  //TODO: make a parse function
-  async function parse(data) {
+//TODO: make a parse function
+async function parse(data) {
 
-    var parsed_posts = [];
-    var i;
+  var parsed_posts = [];
+  var i;
 
-    //iterate through posts
-    for (i = 0; i < data.posts.data.length; i++) {
-      var post = data.posts.data[i];
+  //iterate through posts
+  for (i = 0; i < data.posts.data.length; i++) {
+    var post = data.posts.data[i];
 
-      var images = [];
+    var images = [];
 
-      images.push(post.picture);
+    images.push(post.picture);
 
-      var parsed_post = new Content({
-        _id: new mongoose.Types.ObjectId(),
-        social_media: 'Facebook',
-        user_name: data.name,
-        content_text: post.message,
-        content_images: images,
-        created_date: post.created_time
-      });
-      parsed_posts.push(parsed_post);
-    }
-
-    //do the same for the photos
-    var j;
-    for (j = 0; j < data.photos.data.length; j++)
-    {
-      var photo = data.photos.data[j];
-
-      var images = [];
-      images.push(photo.picture);
-
-      var parsed_photo = new Content({
-        _id: new mongoose.Types.ObjectId(),
-        social_media: 'Facebook',
-        user_name: data.name,
-        content_images: images,
-        created_date: photo.created_time
-      });
-      parsed_posts.push(parsed_photo);
-    }
-    console.log(parsed_posts);
-    return parsed_posts;
+    var parsed_post = new Content({
+      _id: new mongoose.Types.ObjectId(),
+      social_media: 'Facebook',
+      user_name: data.name,
+      content_text: post.message,
+      content_images: images,
+      created_date: post.created_time
+    });
+    parsed_posts.push(parsed_post);
   }
 
+  //do the same for the photos
+  var j;
+  for (j = 0; j < data.photos.data.length; j++) {
+    var photo = data.photos.data[j];
 
-router.post('/', async (req, res) => {
+    var images = [];
+    images.push(photo.picture);
+
+    var parsed_photo = new Content({
+      _id: new mongoose.Types.ObjectId(),
+      social_media: 'Facebook',
+      user_name: data.name,
+      content_images: images,
+      created_date: photo.created_time
+    });
+    parsed_posts.push(parsed_photo);
+  }
+  console.log(parsed_posts);
+  return parsed_posts;
+}
+
+
+router.get('/:celebrity', async (req, res) => {
   const {
     body: {
       access_token
@@ -90,7 +89,14 @@ router.post('/', async (req, res) => {
   //Make into content format
   const parsed_data = await parse(data)
 
-  await posts.insertMany(parsed_data);
+  console.log(parsed_data);
+
+  res.json(parsed_data);
+
+  // Add Tweets to MongoDB
+  (async () => {
+    posts.insertMany(parsed_data);
+  })();
 });
 
 
