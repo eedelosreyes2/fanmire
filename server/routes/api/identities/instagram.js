@@ -35,18 +35,13 @@ router.get('/', async (req, res) => {
     });
     const parsed_posts = await parse(accountInfo);
     // TODO: store this in mongo
-    //console.log(accountInfo);
-    //  res.json(accountInfo);
-
+    await posts.insertMany(parsed_posts);
+    
   } catch (err) {
     console.log(err);
   }
   // redirect them back to the app
   res.redirect('https://localhost:8080/');
-});
-
-(async () => {
-  posts.insertMany(parsed_posts);
 });
 
 async function parse(accountInfo) {
