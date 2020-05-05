@@ -14,7 +14,7 @@ const contentSchema = mongoose.Schema({
   content_images: [String],
   likes: Number,
   retweets: String,
-  created_date: String,
+  created_date: Date,
 });
 
 var Content = mongoose.model('Content', contentSchema);
