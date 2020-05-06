@@ -23,8 +23,11 @@ async function parse(data) {
   var i;
 
   //iterate through posts
-  for (i = 0; i < data.posts.data.length; i++) {
-    var post = data.posts.data[i];
+  //console.log(data.accounts.data[0].posts.data.length)
+  for (i = 0; i < data.accounts.data[0].posts.data.length; i++) {
+    var post = data.accounts.data[0].posts.data[i];
+
+    //console.log(post)
 
     var images = [];
 
@@ -33,31 +36,14 @@ async function parse(data) {
     var parsed_post = new Content({
       _id: new mongoose.Types.ObjectId(),
       social_media: 'Facebook',
-      user_name: data.name,
+      user_name: data.accounts.data[0].name,
       content_text: post.message,
       content_images: images,
       created_date: Date.parse(post.created_time)
     });
     parsed_posts.push(parsed_post);
   }
-
   //do the same for the photos
-  var j;
-  for (j = 0; j < data.photos.data.length; j++) {
-    var photo = data.photos.data[j];
-
-    var images = [];
-    images.push(photo.picture);
-
-    var parsed_photo = new Content({
-      _id: new mongoose.Types.ObjectId(),
-      social_media: 'Facebook',
-      user_name: data.name,
-      content_images: images,
-      created_date: Date.parse(photo.created_time)
-    });
-    parsed_posts.push(parsed_photo);
-  }
   return parsed_posts;
 }
 
@@ -70,7 +56,7 @@ router.post('/', async (req, res) => {
   } = req;
 
   const URL = 'https://graph.facebook.com/v6.0/me';
-  const userFieldSet = 'name,posts{picture,message,created_time},photos{picture,created_time}';
+  const userFieldSet = 'accounts{name,posts{message,picture,created_time}}';
 
   const options = {
     params: {
@@ -85,6 +71,8 @@ router.post('/', async (req, res) => {
     data
   } = await axios.get(URL, options)
 
+  //console.log(data);
+
   //Make into content format
   const parsed_data = await parse(data)
 
@@ -97,7 +85,7 @@ router.post('/', async (req, res) => {
   //   posts.insertMany(parsed_data);
   // })();
    await posts.insertMany(parsed_data);
-   console.log(posts);
+   //console.log(posts);
 });
 
 async function loadPostsCollection() {
