@@ -8,7 +8,7 @@
 }
 
 .instagram {
-    text-align: left;
+    text-align: center;
 }
 
 </style>
@@ -16,7 +16,7 @@
 <template>
     <div class="instagram">
       <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
-      <li><a target="_blank" href="https://localhost:5000/api/identity/instagram/oauth"><i class="fa fa-instagram" id="insta" aria-hidden="true"></i></a></li>
+      <a target="_blank" href="https://localhost:5000/api/identity/instagram/oauth"><i class="fa fa-instagram" id="insta" aria-hidden="true"></i></a>
     </div>
 </template>
 
