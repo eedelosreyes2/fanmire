@@ -69,8 +69,7 @@ async function parse(tweets) {
       content_images: images,
       likes: tweet.favorite_count,
       retweets: "Retweets: " + tweet.retweet_count,
-      created_date: tweet.created_at.replace(/^\w+ (\w+) (\d+) ([\d:]+) \+0000 (\d+)$/,
-        "$1 $2, $4 at $3")
+      created_date: Date.parse(tweet.created_at)
     });
     parsed_tweets.push(parsed_tweet);
   }

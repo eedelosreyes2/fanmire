@@ -36,7 +36,7 @@ async function parse(data) {
       user_name: data.name,
       content_text: post.message,
       content_images: images,
-      created_date: post.created_time
+      created_date: Date.parse(post.created_time)
     });
     parsed_posts.push(parsed_post);
   }
@@ -54,7 +54,7 @@ async function parse(data) {
       social_media: 'Facebook',
       user_name: data.name,
       content_images: images,
-      created_date: photo.created_time
+      created_date: Date.parse(photo.created_time)
     });
     parsed_posts.push(parsed_photo);
   }

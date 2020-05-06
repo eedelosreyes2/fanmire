@@ -36,7 +36,7 @@ router.get('/', async (req, res) => {
     const parsed_posts = await parse(accountInfo);
     // TODO: store this in mongo
     await posts.insertMany(parsed_posts);
-    
+
   } catch (err) {
     console.log(err);
   }
@@ -58,7 +58,7 @@ async function parse(accountInfo) {
       user_name: post.username,
       content_images: images,
       content_text: post.caption,
-      created_date: post.timestamp
+      created_date: Date.parse(post.timestamp)
     });
     parsed_posts.push(parsed_post);
   }
