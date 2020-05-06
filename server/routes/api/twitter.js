@@ -37,12 +37,12 @@ router.get('/:celebrity', async (req, res) => {
   // posts.remove({});
 
   // Add Tweets to MongoDB
-  (async () => {
-    const parsed_tweets = await parse(tweets) // Array of Tweets
-    posts.insertMany(parsed_tweets);
-  })();
+  const parsed_tweets = await parse(tweets) // Array of Tweets
+  // posts.insertMany(parsed_tweets);
 
-  res.json(await posts.find({}).toArray());
+  res.json(await posts.find().sort({
+    created_date: -1
+  }).toArray());
 });
 
 async function parse(tweets) {
@@ -67,10 +67,11 @@ async function parse(tweets) {
       user_handle: "@" + tweet.user.screen_name,
       content_text: tweet.full_text.slice(0, cut),
       content_images: images,
-      likes: tweet.favorite_count,
+      likes: "Likes: " + tweet.favorite_count,
       retweets: "Retweets: " + tweet.retweet_count,
       created_date: Date.parse(tweet.created_at)
     });
+    // console.log(parsed_tweet.likes);
     parsed_tweets.push(parsed_tweet);
   }
 

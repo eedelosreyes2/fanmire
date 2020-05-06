@@ -118,7 +118,7 @@ p.likes {
                 <div v-for="(image, image_index) in post.content_images" v-bind:key="image_index">
                   <img class="content_image" :src="image"/>
                 </div>
-                <p class="likes">Likes: {{ post.likes }}</p>
+                <p class="likes">{{ post.likes }}</p>
                 <p class="likes">{{ post.retweets }}</p>
             </div>
         </div>
