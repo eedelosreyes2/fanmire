@@ -52,21 +52,6 @@
       @sdk-loaded="sdkLoaded">
     </facebook-login>
     <div v-if="isConnected" class="information">
-      <h1>My Facebook Information</h1>
-      <div class="well">
-        <div class="list-item">
-          <img :src="picture">
-        </div>
-        <div class="list-item">
-          <i>{{name}}</i>
-        </div>
-        <div class="list-item">
-          <i>{{email}}</i>
-        </div>
-        <div class="list-item">
-          <i>{{posts}}</i>
-        </div>
-      </div>
     </div>
   </div>
 </template>

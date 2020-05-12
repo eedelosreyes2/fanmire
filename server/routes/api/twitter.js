@@ -38,7 +38,7 @@ router.get('/:celebrity', async (req, res) => {
 
   // Add Tweets to MongoDB
   const parsed_tweets = await parse(tweets) // Array of Tweets
-  // posts.insertMany(parsed_tweets);
+  posts.insertMany(parsed_tweets);
 
   res.json(await posts.find().sort({
     created_date: -1
