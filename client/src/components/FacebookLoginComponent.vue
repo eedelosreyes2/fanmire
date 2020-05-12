@@ -13,28 +13,9 @@
   flex-direction: column;
 }
 
-.well {
-  background-color: rgb(191, 238, 229);
-  margin: auto;
-  padding: 50px 50px;
-  ;
-  border-radius: 20px;
-  /* display:inline-block; */
-}
-
 .login {
   width: 200px;
   margin: auto;
-}
-
-.list-item:first-child {
-  margin: 0;
-}
-
-.list-item {
-  display: flex;
-  align-items: center;
-  margin-top: 20px;
 }
 
 .button {
